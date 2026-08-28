@@ -1,0 +1,946 @@
+employee_id,department,role_level,tenure_years,salary_band,performance_rating,training_hours_annual,avg_overtime_hrs_week,job_satisfaction_score,work_life_balance_score,last_promotion_years_ago,attrition_flag
+EMP-0009731,Sales,Individual Contributor,8.3,Band 1,4.9,50,23.1,2.4,3.1,0.1,0
+EMP-0008311,Finance,VP,16.0,Band 6,2.3,101,8.5,5.0,1.0,3.2,0
+EMP-0003986,Operations,Associate,26.2,Band 1,1.6,98,5.7,4.4,3.7,1.6,0
+EMP-0003056,Engineering,Individual Contributor,28.4,Band 3,4.9,35,1.6,3.9,3.3,8.8,0
+EMP-0014424,Product,Manager,3.9,Band 1,3.4,8,18.2,3.1,3.2,7.0,1
+EMP-0003816,HR,Team Lead,16.8,Band 4,3.1,120,17.6,3.5,1.9,5.4,0
+EMP-0009066,Marketing,Team Lead,6.3,Band 2,1.7,94,18.6,1.9,3.5,1.6,1
+EMP-0004186,Legal,Senior Manager,22.4,Band 5,3.6,78,21.3,2.4,2.5,1.2,1
+EMP-0003211,IT,Director,5.2,Band 6,2.4,102,13.5,3.0,4.0,1.7,0
+EMP-0014984,Product,Individual Contributor,18.9,Band 6,4.6,110,15.0,4.2,2.9,0.7,0
+EMP-0013157,Legal,VP,3.7,Band 1,1.8,86,9.2,5.0,2.9,0.9,0
+EMP-0014942,Operations,Associate,2.7,Band 4,1.8,7,7.1,3.2,4.2,2.9,0
+EMP-0007147,Operations,Associate,19.2,Band 6,2.3,116,24.3,4.5,2.2,8.0,0
+EMP-0001530,IT,Director,17.6,Band 3,2.2,68,1.0,3.1,1.9,5.5,0
+EMP-0004403,Customer Success,Senior Manager,16.4,Band 4,4.7,11,1.3,4.9,1.4,1.6,1
+EMP-0014651,Customer Success,Manager,11.5,Band 1,2.1,9,2.7,4.8,4.6,9.7,1
+EMP-0011408,Sales,VP,12.8,Band 1,2.6,2,18.7,3.3,3.3,2.5,0
+EMP-0013359,Product,VP,9.5,Band 6,2.5,65,17.3,4.1,4.7,2.3,0
+EMP-0003720,Engineering,Individual Contributor,18.2,Band 4,4.4,48,11.2,2.8,4.6,2.0,0
+EMP-0001163,Customer Success,Director,18.2,Band 3,4.4,57,12.5,4.1,1.1,2.0,0
+EMP-0014776,Operations,Associate,10.9,Band 1,3.5,84,23.6,4.1,4.5,7.8,0
+EMP-0010343,Sales,Individual Contributor,21.5,Band 1,3.8,8,6.1,3.2,3.1,1.6,0
+EMP-0002651,Marketing,VP,27.8,Band 2,4.2,89,5.3,2.2,3.0,2.0,0
+EMP-0000908,HR,Analyst,27.8,Band 1,2.5,75,0.0,3.1,4.2,4.4,0
+EMP-0004498,Operations,Analyst,2.9,Band 4,3.9,113,24.4,3.6,4.6,4.2,0
+EMP-0011234,Customer Success,Associate,19.8,Band 1,3.5,35,17.1,2.7,3.7,9.1,1
+EMP-0005875,Product,Analyst,2.2,Band 1,4.9,84,21.1,4.3,3.6,3.1,1
+EMP-0014305,Operations,Associate,28.0,Band 4,3.2,95,19.6,3.0,2.9,0.7,0
+EMP-0007143,Sales,Individual Contributor,28.4,Band 1,2.6,48,22.7,3.3,2.3,8.3,1
+EMP-0006919,HR,Senior Manager,3.7,Band 1,3.9,0,14.3,4.0,1.0,6.2,0
+EMP-0011490,HR,Manager,1.7,Band 2,2.2,34,20.1,3.5,3.4,2.9,0
+EMP-0014006,Marketing,Manager,10.5,Band 4,2.2,34,3.7,2.5,2.8,9.3,0
+EMP-0006947,IT,Individual Contributor,4.3,Band 2,3.8,8,18.5,1.0,2.9,1.6,1
+EMP-0007120,Engineering,VP,19.3,Band 2,3.0,20,15.5,1.7,3.2,6.7,0
+EMP-0003457,Legal,Senior Manager,17.1,Band 2,2.9,92,19.6,2.8,4.0,0.6,0
+EMP-0007810,Operations,Director,12.7,Band 3,1.7,30,22.4,3.6,2.0,7.1,1
+EMP-0011781,Operations,Manager,3.8,Band 2,4.4,59,8.1,2.8,2.9,9.9,0
+EMP-0014884,Finance,Individual Contributor,15.3,Band 6,4.7,66,19.8,2.9,3.1,7.4,0
+EMP-0004956,Sales,Manager,18.7,Band 3,2.4,68,5.9,4.6,2.9,1.8,0
+EMP-0009033,Finance,VP,9.2,Band 4,4.4,92,6.9,3.9,4.8,5.2,1
+EMP-0005660,Engineering,Individual Contributor,25.9,Band 5,4.0,73,4.4,3.0,3.5,9.1,0
+EMP-0000491,Sales,Director,29.7,Band 2,3.3,83,23.5,3.6,3.5,5.4,0
+EMP-0004632,Marketing,Individual Contributor,1.8,Band 4,4.3,101,14.5,2.2,1.6,6.3,0
+EMP-0007364,Sales,Team Lead,17.2,Band 2,2.7,22,20.5,2.7,1.3,5.3,0
+EMP-0012210,Sales,Director,9.0,Band 4,2.0,45,8.8,2.8,2.7,8.0,0
+EMP-0012716,Operations,Individual Contributor,12.4,Band 6,4.2,32,13.5,1.6,2.5,9.6,0
+EMP-0011653,Finance,Analyst,29.5,Band 3,4.6,107,14.8,2.8,3.4,10.0,1
+EMP-0010308,Operations,VP,17.5,Band 4,3.3,62,6.9,3.7,3.9,9.9,1
+EMP-0001798,Legal,Individual Contributor,6.5,Band 6,2.6,115,14.4,4.5,1.0,1.5,0
+EMP-0007059,Legal,Analyst,0.9,Band 4,3.2,26,3.8,3.6,2.5,6.0,0
+EMP-0011952,Operations,Analyst,16.8,Band 1,2.0,110,25.0,2.6,2.8,9.8,1
+EMP-0006651,IT,Team Lead,20.1,Band 4,3.8,88,19.3,4.0,2.1,7.1,0
+EMP-0005897,Customer Success,Team Lead,26.2,Band 2,4.5,109,19.1,3.4,4.1,6.0,0
+EMP-0005414,HR,Analyst,4.3,Band 2,4.0,45,8.1,4.3,1.1,2.8,0
+EMP-0011144,Finance,Individual Contributor,19.6,Band 2,3.8,111,8.0,3.9,1.6,9.8,0
+EMP-0011151,Operations,Director,16.0,Band 2,1.5,118,1.2,1.9,2.8,7.0,0
+EMP-0010873,HR,Individual Contributor,17.6,Band 2,4.4,19,18.6,2.2,2.0,6.4,1
+EMP-0003160,Sales,Associate,0.5,Band 3,4.1,4,18.9,4.4,5.0,0.7,1
+EMP-0010592,Product,Team Lead,27.6,Band 4,2.2,23,20.4,4.2,1.6,0.8,1
+EMP-0000285,Engineering,Director,6.1,Band 1,3.1,8,15.0,4.1,3.4,8.2,0
+EMP-0005977,Engineering,Analyst,5.4,Band 4,2.0,67,18.3,3.3,2.9,1.4,0
+EMP-0000269,Legal,Senior Manager,3.1,Band 3,2.7,53,6.8,3.7,2.1,2.6,0
+EMP-0002784,IT,Team Lead,19.7,Band 3,2.1,118,22.6,4.2,3.8,2.8,0
+EMP-0014640,Sales,Director,12.7,Band 1,3.6,40,20.6,3.9,2.6,9.3,0
+EMP-0006953,Sales,Analyst,4.5,Band 3,2.7,50,13.8,2.1,3.3,0.2,0
+EMP-0012360,Product,Team Lead,9.5,Band 3,2.2,51,16.9,3.2,2.5,5.7,0
+EMP-0014827,Customer Success,Director,22.6,Band 5,3.2,108,22.4,4.4,3.4,5.0,1
+EMP-0013269,IT,Analyst,5.5,Band 1,3.5,120,8.4,5.0,2.6,8.0,0
+EMP-0001671,IT,Individual Contributor,3.7,Band 5,3.4,29,21.5,4.3,3.0,0.5,0
+EMP-0014020,Customer Success,Team Lead,13.0,Band 2,3.5,75,0.3,3.8,3.4,7.3,0
+EMP-0004801,IT,Individual Contributor,11.1,Band 4,1.5,43,10.8,4.3,2.7,0.1,0
+EMP-0012527,HR,Director,20.9,Band 5,2.9,101,12.4,2.5,2.6,2.5,0
+EMP-0004506,Legal,Individual Contributor,21.0,Band 2,3.5,105,1.2,4.9,2.7,3.1,0
+EMP-0004115,Marketing,VP,7.7,Band 1,1.8,16,20.9,2.7,5.0,2.2,1
+EMP-0006032,Marketing,Associate,4.6,Band 3,4.6,19,10.8,1.8,2.9,2.7,1
+EMP-0008788,Engineering,Manager,21.9,Band 2,3.1,18,20.2,2.1,2.0,4.2,0
+EMP-0003045,Marketing,Analyst,28.4,Band 1,3.4,84,0.1,2.8,2.7,5.9,0
+EMP-0012825,Sales,Associate,27.1,Band 3,1.5,107,20.3,2.3,3.1,8.6,1
+EMP-0014446,Operations,Associate,28.5,Band 5,3.0,23,9.4,3.1,2.9,3.9,0
+EMP-0011073,HR,Analyst,6.7,Band 1,3.1,28,22.2,3.3,1.6,6.3,1
+EMP-0006925,Finance,Manager,1.9,Band 1,3.8,19,20.7,2.2,2.9,1.5,0
+EMP-0009204,Operations,Analyst,7.4,Band 3,3.0,23,22.0,4.2,2.4,8.6,1
+EMP-0013898,Legal,Director,11.7,Band 1,2.3,106,7.8,2.9,1.8,7.2,0
+EMP-0011193,Product,Manager,6.8,Band 6,3.9,112,14.5,3.0,2.1,1.8,0
+EMP-0004059,HR,Individual Contributor,8.9,Band 4,2.8,47,21.8,3.8,3.3,0.4,0
+EMP-0014370,IT,Analyst,6.5,Band 2,2.4,79,22.9,2.2,1.5,3.5,1
+EMP-0005301,IT,Associate,1.2,Band 1,1.9,29,9.8,3.4,3.9,7.0,1
+EMP-0002754,Operations,Associate,29.1,Band 2,3.8,104,13.8,3.2,2.7,0.5,1
+EMP-0007044,Engineering,VP,16.5,Band 2,2.1,75,6.9,1.4,1.2,7.0,0
+EMP-0008480,Product,Analyst,20.8,Band 3,3.5,79,6.0,4.5,4.4,8.9,0
+EMP-0010058,Product,Associate,14.2,Band 3,2.4,72,1.2,4.0,4.0,0.3,0
+EMP-0010970,Finance,VP,21.2,Band 2,2.0,70,9.0,1.5,3.6,7.3,0
+EMP-0003175,Finance,Associate,25.1,Band 1,2.3,7,22.8,4.3,4.2,4.5,0
+EMP-0006653,Operations,VP,7.3,Band 1,3.8,105,18.5,4.0,3.2,2.5,0
+EMP-0012722,Customer Success,Team Lead,28.4,Band 1,4.7,94,5.1,2.0,3.8,9.9,0
+EMP-0002644,Legal,Team Lead,2.2,Band 4,3.5,85,13.7,3.1,2.8,6.6,0
+EMP-0013221,IT,Associate,5.5,Band 3,4.1,46,13.3,3.2,3.3,3.3,1
+EMP-0011715,Legal,Analyst,15.9,Band 5,2.0,33,21.1,3.8,4.5,4.5,1
+EMP-0007544,Legal,Manager,7.8,Band 5,4.5,2,7.7,1.7,3.0,7.1,0
+EMP-0010650,Marketing,Analyst,4.1,Band 2,3.7,38,8.4,2.2,2.1,4.6,0
+EMP-0003814,Marketing,Senior Manager,26.0,Band 4,3.0,42,9.4,3.8,3.6,9.5,0
+EMP-0000199,Operations,Senior Manager,4.7,Band 5,2.3,23,23.8,1.7,3.7,0.8,0
+EMP-0001090,Product,Manager,16.9,Band 1,3.2,44,20.8,2.5,4.0,0.1,0
+EMP-0010498,Customer Success,Team Lead,3.8,Band 3,2.9,81,23.7,4.3,2.6,6.6,0
+EMP-0005557,IT,Director,6.6,Band 4,3.8,55,15.1,4.2,2.0,5.0,0
+EMP-0003420,Sales,Team Lead,20.5,Band 3,4.8,56,20.5,3.4,3.9,9.7,0
+EMP-0001758,Sales,Associate,17.5,Band 2,3.6,108,17.8,4.6,4.7,1.4,0
+EMP-0012708,Customer Success,Individual Contributor,23.1,Band 3,3.5,90,13.0,3.4,4.4,0.7,0
+EMP-0011602,IT,Team Lead,6.6,Band 2,2.1,88,23.1,2.3,2.6,5.4,1
+EMP-0006475,Engineering,Analyst,3.7,Band 2,4.3,99,19.5,2.9,4.8,9.6,1
+EMP-0004807,HR,Analyst,25.6,Band 2,4.2,98,8.0,3.3,1.0,2.1,0
+EMP-0003695,Product,Manager,5.9,Band 6,3.0,113,7.5,4.0,3.8,4.7,0
+EMP-0009722,Legal,Associate,19.3,Band 4,3.1,54,21.5,3.6,2.3,9.6,0
+EMP-0012734,Engineering,Associate,10.2,Band 2,4.9,12,16.3,2.9,2.7,0.9,0
+EMP-0012070,Marketing,Senior Manager,24.8,Band 5,2.1,63,24.7,2.9,3.7,4.8,0
+EMP-0011722,Sales,Individual Contributor,7.1,Band 5,2.2,84,21.2,2.7,3.8,0.9,0
+EMP-0007326,Product,Analyst,21.5,Band 1,4.4,6,18.9,3.1,2.0,9.0,0
+EMP-0000892,Engineering,Manager,17.2,Band 5,1.8,88,2.8,3.1,4.2,9.0,0
+EMP-0000270,Legal,Senior Manager,15.9,Band 3,3.0,120,4.8,2.0,4.5,5.3,1
+EMP-0003992,Sales,VP,14.6,Band 1,3.8,113,12.9,2.7,4.1,3.9,0
+EMP-0013344,Product,Manager,18.6,Band 1,4.9,119,6.5,2.5,4.1,0.8,0
+EMP-0004200,Legal,VP,18.7,Band 6,2.5,9,17.9,4.1,2.9,6.4,0
+EMP-0014380,Legal,Associate,13.1,Band 1,4.0,29,6.9,3.6,4.9,4.0,0
+EMP-0003031,Legal,Team Lead,12.0,Band 1,1.9,67,7.1,3.4,1.7,7.2,0
+EMP-0012641,Legal,Manager,20.4,Band 2,2.3,63,8.8,3.4,3.2,4.5,1
+EMP-0001978,Engineering,Senior Manager,23.3,Band 1,2.6,85,10.7,3.1,1.0,0.2,0
+EMP-0010364,Marketing,Senior Manager,20.9,Band 1,4.7,38,5.5,3.5,2.6,5.1,0
+EMP-0001326,Engineering,Director,3.4,Band 4,5.0,77,23.0,3.4,3.1,6.5,0
+EMP-0014602,Product,Director,29.9,Band 2,1.9,94,10.9,2.4,1.2,3.5,0
+EMP-0013593,Product,Associate,2.5,Band 2,2.9,70,15.1,5.0,3.9,9.8,0
+EMP-0013468,Engineering,Director,7.5,Band 5,3.1,53,17.2,2.8,3.9,7.9,1
+EMP-0013939,Sales,Manager,15.8,Band 1,2.5,80,6.0,4.3,2.6,1.5,0
+EMP-0001777,Customer Success,VP,20.3,Band 3,4.1,64,10.5,3.6,4.5,1.5,0
+EMP-0009672,Engineering,VP,5.3,Band 3,2.7,91,16.3,4.1,2.1,1.4,0
+EMP-0007919,Sales,Team Lead,18.3,Band 2,3.8,30,13.1,2.7,2.2,6.2,1
+EMP-0012724,Customer Success,VP,20.9,Band 2,2.4,73,22.8,2.8,4.0,4.7,0
+EMP-0007289,Finance,VP,17.4,Band 1,2.4,79,17.7,3.7,3.2,9.6,0
+EMP-0007970,Product,Manager,7.2,Band 1,2.3,37,17.2,3.3,2.3,7.0,0
+EMP-0007178,Operations,Director,14.7,Band 6,2.8,70,17.8,4.7,2.5,5.3,0
+EMP-0002241,Customer Success,Associate,28.1,Band 4,4.0,12,8.4,4.1,1.4,7.0,1
+EMP-0002555,Customer Success,Director,4.8,Band 4,2.1,32,24.2,3.3,1.3,7.5,1
+EMP-0007730,Operations,Associate,7.7,Band 3,4.0,38,5.6,4.1,2.3,9.4,1
+EMP-0003950,Finance,Director,15.4,Band 2,2.2,14,18.2,1.0,3.6,6.1,0
+EMP-0002383,Customer Success,Team Lead,4.6,Band 4,4.7,63,15.8,4.0,3.3,9.7,0
+EMP-0005263,Engineering,Team Lead,15.3,Band 3,2.1,117,14.6,2.7,3.0,9.5,0
+EMP-0014054,Product,Associate,23.3,Band 2,2.5,111,24.7,3.4,1.9,4.1,1
+EMP-0012185,HR,Team Lead,10.1,Band 1,4.2,75,23.8,3.4,4.0,5.6,1
+EMP-0000162,Product,Associate,26.5,Band 1,2.1,92,8.7,5.0,3.1,5.5,0
+EMP-0008606,Engineering,VP,1.7,Band 1,4.6,30,5.6,3.6,3.7,1.7,0
+EMP-0004874,Sales,Analyst,1.5,Band 3,1.6,39,11.6,3.7,3.1,7.9,0
+EMP-0002546,Finance,Team Lead,28.5,Band 5,2.4,3,8.1,3.0,3.0,5.0,0
+EMP-0002249,Engineering,Senior Manager,20.6,Band 2,4.0,113,6.5,1.6,2.9,6.3,0
+EMP-0010815,IT,Director,26.4,Band 4,2.2,78,19.1,2.6,3.1,6.1,0
+EMP-0007086,Marketing,Director,23.9,Band 6,4.0,35,1.0,2.5,4.1,3.6,0
+EMP-0007575,Product,Analyst,16.3,Band 2,1.9,107,24.2,4.5,3.9,8.9,0
+EMP-0013040,Legal,VP,1.2,Band 3,3.8,74,10.4,2.5,3.7,5.5,0
+EMP-0007860,HR,Associate,7.5,Band 5,3.2,46,20.2,3.5,3.8,4.1,0
+EMP-0011011,Product,Director,2.1,Band 4,3.4,13,12.8,2.8,3.3,0.0,0
+EMP-0000073,Marketing,Senior Manager,21.6,Band 5,1.5,72,1.8,2.1,4.2,6.8,0
+EMP-0004550,IT,Senior Manager,5.5,Band 2,2.2,64,5.7,2.5,3.6,8.0,0
+EMP-0004188,IT,Individual Contributor,4.6,Band 1,2.0,106,23.2,3.3,2.5,4.0,0
+EMP-0010593,Marketing,Director,10.7,Band 1,5.0,111,0.3,3.8,3.6,7.9,0
+EMP-0003703,Operations,Associate,7.2,Band 1,4.7,44,4.8,3.2,4.3,7.9,0
+EMP-0014418,Operations,Team Lead,8.0,Band 3,1.7,105,17.6,2.9,3.6,0.0,0
+EMP-0001424,Engineering,VP,19.6,Band 5,3.6,99,24.8,3.6,4.0,8.9,1
+EMP-0012812,Product,Individual Contributor,13.1,Band 1,3.7,60,21.8,3.1,1.7,6.2,0
+EMP-0010965,Customer Success,Senior Manager,18.8,Band 1,4.0,100,0.8,1.2,3.7,1.2,0
+EMP-0004324,Marketing,Individual Contributor,8.9,Band 4,3.3,72,9.5,3.4,1.3,1.1,0
+EMP-0005616,Finance,VP,22.7,Band 2,2.6,91,6.1,2.6,4.7,5.4,1
+EMP-0003674,Finance,Director,10.1,Band 4,4.0,39,13.7,2.6,3.5,0.1,0
+EMP-0005989,Finance,Manager,2.4,Band 3,2.3,94,12.2,4.0,2.8,5.5,0
+EMP-0005576,Engineering,Individual Contributor,28.9,Band 1,3.9,43,13.1,2.7,3.2,4.1,0
+EMP-0001880,Engineering,Individual Contributor,26.5,Band 4,2.5,53,10.0,4.1,1.8,9.3,0
+EMP-0014512,HR,Director,11.2,Band 3,4.9,10,11.9,4.7,4.1,4.6,0
+EMP-0003909,Customer Success,Senior Manager,29.0,Band 5,2.3,40,20.8,2.6,2.2,7.8,0
+EMP-0004728,Operations,Director,19.4,Band 3,3.8,95,7.5,2.8,1.0,2.9,1
+EMP-0013185,Sales,Manager,28.6,Band 5,2.4,25,24.0,2.5,1.6,4.5,1
+EMP-0001341,Sales,Individual Contributor,13.1,Band 4,4.6,40,16.0,2.7,3.8,6.0,0
+EMP-0005334,Customer Success,Individual Contributor,13.4,Band 1,2.2,2,6.0,3.5,5.0,8.3,1
+EMP-0011975,Legal,Manager,22.3,Band 1,1.9,76,18.1,3.5,2.2,4.9,0
+EMP-0002986,Finance,VP,22.3,Band 1,2.4,20,23.7,2.8,3.5,1.9,0
+EMP-0003617,Marketing,Team Lead,16.2,Band 4,1.9,40,17.4,1.5,2.0,7.2,1
+EMP-0008698,Engineering,Director,20.0,Band 2,4.6,49,10.7,4.5,3.5,9.3,0
+EMP-0002920,Operations,Director,18.8,Band 3,4.8,25,24.6,3.1,3.3,4.5,1
+EMP-0013107,Customer Success,Associate,23.6,Band 5,3.6,11,7.6,4.3,3.7,9.9,0
+EMP-0004932,Customer Success,Team Lead,7.8,Band 1,3.3,11,18.7,2.9,5.0,9.0,0
+EMP-0009768,Product,Individual Contributor,3.3,Band 1,1.5,31,2.6,2.4,3.1,5.9,1
+EMP-0012999,Sales,Individual Contributor,13.5,Band 5,1.7,12,11.4,3.0,3.4,2.6,0
+EMP-0001789,Legal,Associate,21.2,Band 1,3.8,25,24.2,4.9,1.9,9.2,0
+EMP-0006192,Operations,Individual Contributor,10.1,Band 1,4.1,107,4.2,2.8,3.0,7.1,0
+EMP-0001987,IT,Associate,15.6,Band 3,4.4,23,0.3,2.9,1.0,6.0,0
+EMP-0004560,Customer Success,Manager,17.7,Band 1,1.8,34,7.1,2.4,3.7,3.0,0
+EMP-0006909,Marketing,Manager,1.6,Band 6,3.5,16,24.5,4.3,2.7,4.7,0
+EMP-0006792,HR,Manager,18.6,Band 3,3.0,71,24.5,3.6,5.0,3.2,0
+EMP-0000308,IT,Analyst,17.1,Band 4,3.7,30,0.7,3.5,2.3,7.4,0
+EMP-0000526,Customer Success,Director,17.2,Band 1,3.3,23,18.9,4.6,3.0,7.5,0
+EMP-0008909,IT,Director,6.5,Band 1,1.9,52,3.9,3.4,5.0,3.5,0
+EMP-0001795,Finance,Director,16.5,Band 4,1.5,52,23.5,2.9,3.0,8.2,0
+EMP-0000414,Sales,Manager,6.3,Band 6,2.3,112,23.0,3.3,2.9,3.4,1
+EMP-0001476,Product,Associate,7.7,Band 4,3.9,36,9.6,4.5,2.7,8.9,0
+EMP-0007949,Customer Success,Individual Contributor,1.7,Band 4,2.7,22,17.3,2.1,3.6,5.1,0
+EMP-0010437,HR,Manager,19.8,Band 4,4.1,80,23.7,2.4,3.4,0.2,0
+EMP-0002453,Customer Success,Individual Contributor,9.3,Band 3,2.4,55,4.3,3.8,2.6,4.7,0
+EMP-0001066,Marketing,Senior Manager,0.9,Band 4,4.7,102,8.4,1.3,2.2,5.2,1
+EMP-0000640,Finance,Manager,22.5,Band 2,3.6,2,10.6,4.2,1.7,3.9,0
+EMP-0009160,Product,Team Lead,12.6,Band 1,3.0,94,14.4,3.1,3.5,4.8,0
+EMP-0010188,IT,Senior Manager,5.8,Band 1,4.2,68,10.7,3.1,2.7,1.5,0
+EMP-0007658,HR,VP,16.6,Band 1,3.4,74,3.2,3.5,3.4,0.8,1
+EMP-0008493,Legal,Manager,17.0,Band 3,1.6,98,18.7,4.1,1.8,9.9,0
+EMP-0008359,HR,Senior Manager,14.0,Band 1,4.6,104,5.3,2.4,4.1,7.9,1
+EMP-0013453,IT,Associate,18.4,Band 2,3.4,78,8.8,1.8,3.2,6.2,1
+EMP-0003731,IT,Associate,24.2,Band 1,3.1,44,15.7,3.9,3.5,0.9,0
+EMP-0004470,Product,Manager,14.1,Band 2,1.6,42,7.9,5.0,2.3,4.0,0
+EMP-0012031,Marketing,VP,19.1,Band 2,2.7,59,18.1,3.0,2.1,0.8,0
+EMP-0010373,Sales,Analyst,9.1,Band 1,2.9,111,14.9,2.2,1.9,2.2,1
+EMP-0006930,Legal,Manager,8.6,Band 1,3.8,25,2.3,3.4,3.7,1.4,0
+EMP-0012668,Operations,Analyst,25.4,Band 1,4.6,20,12.4,2.1,3.1,6.4,1
+EMP-0014406,IT,Associate,9.0,Band 4,3.8,115,19.5,3.3,3.3,3.4,0
+EMP-0004063,Sales,Manager,9.6,Band 2,2.0,30,19.1,2.6,1.5,3.3,0
+EMP-0003859,Sales,Team Lead,27.7,Band 2,4.2,63,8.0,3.8,3.5,1.5,1
+EMP-0001609,IT,Director,3.6,Band 5,1.7,58,15.2,3.2,4.0,2.7,0
+EMP-0010499,IT,Manager,26.0,Band 2,2.9,33,12.1,3.2,1.0,6.0,0
+EMP-0012304,Finance,Associate,28.5,Band 5,4.2,55,4.3,2.5,3.3,7.5,0
+EMP-0009350,Engineering,Director,25.4,Band 2,4.6,114,4.7,4.5,2.3,8.8,0
+EMP-0002268,Operations,VP,25.4,Band 4,4.9,35,21.4,3.2,1.8,6.4,1
+EMP-0004166,Legal,Analyst,20.0,Band 2,3.8,22,4.8,1.4,5.0,9.4,1
+EMP-0013878,Marketing,Associate,11.3,Band 6,1.9,83,22.9,2.7,1.6,9.6,0
+EMP-0004833,HR,VP,16.2,Band 2,3.1,108,5.3,3.4,4.1,1.2,0
+EMP-0001110,HR,Manager,7.0,Band 4,4.7,13,15.1,3.8,2.7,6.7,0
+EMP-0005093,Operations,VP,11.3,Band 6,4.4,49,18.4,4.4,1.8,5.6,0
+EMP-0005294,Product,Team Lead,2.2,Band 3,3.8,100,3.7,3.4,4.1,0.8,0
+EMP-0012793,IT,Analyst,24.6,Band 5,2.5,84,4.0,3.2,1.9,3.1,0
+EMP-0002006,Customer Success,Analyst,27.8,Band 2,4.8,61,6.8,3.7,1.2,2.1,0
+EMP-0007307,Marketing,VP,2.4,Band 3,2.5,107,21.2,3.3,3.5,2.5,0
+EMP-0012922,HR,VP,26.6,Band 4,2.9,74,24.4,1.6,2.7,3.8,1
+EMP-0010624,Operations,Analyst,26.3,Band 1,2.9,13,10.4,1.7,2.7,4.6,0
+EMP-0002023,Customer Success,Individual Contributor,17.8,Band 3,3.8,19,18.0,5.0,2.8,8.6,1
+EMP-0007901,Legal,Senior Manager,11.3,Band 1,3.2,41,19.8,2.8,4.8,2.7,0
+EMP-0000151,Product,VP,22.2,Band 2,4.7,98,15.4,5.0,4.4,3.4,0
+EMP-0008702,Marketing,Director,12.4,Band 2,4.5,59,16.9,2.6,2.9,1.6,0
+EMP-0005313,Product,Senior Manager,1.0,Band 3,4.2,114,17.0,4.3,3.6,7.2,0
+EMP-0010431,Finance,Individual Contributor,23.0,Band 3,4.2,70,5.9,3.3,5.0,0.4,0
+EMP-0000382,Engineering,VP,25.0,Band 1,4.5,33,19.6,2.9,3.3,5.7,1
+EMP-0012918,Legal,VP,7.4,Band 3,3.2,2,7.2,3.2,2.6,3.7,0
+EMP-0009515,Operations,VP,0.5,Band 3,4.3,52,11.3,2.0,3.2,5.6,0
+EMP-0007166,Engineering,Individual Contributor,1.0,Band 1,4.3,118,5.5,2.5,2.5,3.0,1
+EMP-0014696,HR,Team Lead,22.5,Band 2,4.7,14,8.3,1.8,2.3,9.7,1
+EMP-0003613,Legal,Analyst,16.4,Band 2,1.6,50,1.8,2.6,3.1,5.4,1
+EMP-0004482,Marketing,Senior Manager,28.5,Band 4,2.0,111,19.3,4.8,3.5,8.8,1
+EMP-0009560,IT,VP,8.6,Band 5,3.6,57,2.9,3.4,3.8,6.3,0
+EMP-0007727,Finance,Senior Manager,15.8,Band 5,3.3,5,4.1,3.6,3.1,8.8,0
+EMP-0008769,Legal,VP,15.2,Band 4,2.6,85,2.4,3.0,1.9,7.8,0
+EMP-0000462,Sales,Team Lead,21.0,Band 1,2.1,69,7.5,2.9,1.1,0.1,0
+EMP-0004383,Product,Manager,22.4,Band 4,1.7,84,7.8,1.9,2.1,2.4,0
+EMP-0004456,IT,VP,28.5,Band 4,4.9,39,5.4,3.9,3.6,8.5,0
+EMP-0003567,Engineering,Individual Contributor,9.0,Band 2,2.6,97,13.9,2.5,3.9,0.5,0
+EMP-0012561,Marketing,Associate,29.4,Band 1,2.9,70,14.6,3.3,1.9,1.6,1
+EMP-0011676,IT,Director,22.3,Band 4,3.1,20,4.3,2.9,3.4,1.0,0
+EMP-0004720,Engineering,Associate,7.5,Band 2,2.5,26,19.3,2.8,4.7,6.1,1
+EMP-0003689,HR,Analyst,23.1,Band 1,1.7,101,17.7,3.4,3.6,6.7,0
+EMP-0014484,Finance,Analyst,16.4,Band 1,3.1,99,23.1,3.5,2.7,4.9,0
+EMP-0009776,Sales,Individual Contributor,8.9,Band 3,4.8,93,13.7,2.6,2.4,6.8,0
+EMP-0008563,Operations,Manager,25.9,Band 4,2.1,67,13.3,2.2,1.5,7.9,0
+EMP-0011797,IT,Team Lead,17.4,Band 3,2.3,101,6.5,3.1,4.1,7.8,0
+EMP-0009643,Legal,Individual Contributor,20.1,Band 5,3.5,66,8.8,3.1,3.3,4.4,0
+EMP-0010511,Operations,Director,20.1,Band 4,2.7,46,23.1,5.0,3.0,7.0,1
+EMP-0005459,IT,Team Lead,18.3,Band 2,4.2,16,12.2,3.5,2.9,4.7,0
+EMP-0005946,Product,Manager,11.2,Band 2,2.9,5,12.5,4.3,2.9,8.8,0
+EMP-0009738,Sales,Associate,19.0,Band 4,3.6,89,15.8,2.6,3.1,0.7,1
+EMP-0003368,Legal,Analyst,9.9,Band 2,3.5,74,7.3,3.0,2.9,3.5,1
+EMP-0012250,Operations,Senior Manager,26.1,Band 1,2.2,49,4.0,2.0,3.4,4.8,1
+EMP-0009471,Customer Success,Individual Contributor,22.8,Band 5,4.3,53,15.1,3.1,2.3,6.9,0
+EMP-0012493,Marketing,VP,25.4,Band 2,3.4,91,12.3,4.1,3.2,7.4,0
+EMP-0014231,Operations,Team Lead,0.5,Band 6,4.3,100,6.0,3.0,2.6,0.9,0
+EMP-0003514,Product,Analyst,11.2,Band 2,1.9,107,17.9,2.2,4.6,9.0,0
+EMP-0001374,Legal,Manager,23.5,Band 2,4.3,89,15.4,1.4,3.0,7.7,1
+EMP-0001814,HR,VP,5.6,Band 3,1.8,36,12.9,2.1,3.9,8.7,0
+EMP-0008574,Legal,Senior Manager,14.0,Band 5,4.7,106,22.6,3.5,2.5,4.9,1
+EMP-0003112,Marketing,Analyst,19.9,Band 6,3.0,120,1.4,2.9,4.1,3.4,0
+EMP-0011692,IT,VP,13.1,Band 1,1.5,108,23.2,3.9,1.9,2.0,0
+EMP-0004206,Engineering,Individual Contributor,2.0,Band 4,4.8,118,19.7,3.3,2.3,5.2,0
+EMP-0003153,Customer Success,Manager,25.5,Band 3,2.3,63,20.0,3.1,2.2,6.4,0
+EMP-0011783,HR,Individual Contributor,22.1,Band 5,4.7,29,17.3,4.2,3.2,9.4,0
+EMP-0000437,Engineering,VP,16.6,Band 1,2.8,96,9.8,4.9,3.9,6.4,0
+EMP-0000113,HR,Associate,19.8,Band 2,4.7,39,25.0,2.4,2.4,1.3,0
+EMP-0014205,Sales,Associate,3.0,Band 5,4.7,0,24.8,4.0,2.6,7.7,0
+EMP-0009386,Legal,Director,20.7,Band 2,2.7,9,2.7,3.9,2.7,4.3,0
+EMP-0014994,Operations,Individual Contributor,23.5,Band 3,4.4,40,24.8,3.8,3.4,6.1,0
+EMP-0005976,HR,Team Lead,7.6,Band 5,3.9,41,5.6,2.6,1.2,3.6,0
+EMP-0003399,Legal,Team Lead,3.8,Band 3,3.1,102,11.1,2.1,4.5,2.8,0
+EMP-0006667,IT,Analyst,23.3,Band 2,4.0,93,15.0,4.0,5.0,3.4,0
+EMP-0005466,Product,Associate,24.5,Band 1,2.6,91,17.6,1.5,3.5,2.7,0
+EMP-0011632,HR,Director,7.9,Band 3,2.0,82,16.4,3.8,4.3,3.4,0
+EMP-0004144,Customer Success,Individual Contributor,25.8,Band 1,3.1,46,16.8,4.2,1.6,7.1,1
+EMP-0012931,Marketing,Manager,27.1,Band 1,4.1,108,23.6,4.6,2.1,6.6,0
+EMP-0012995,HR,Senior Manager,23.1,Band 3,4.0,96,23.6,2.6,3.7,2.1,0
+EMP-0006703,IT,Director,9.5,Band 4,2.3,38,0.2,3.4,3.2,2.5,0
+EMP-0005953,Sales,Senior Manager,5.3,Band 2,3.0,69,15.6,4.6,3.0,2.2,0
+EMP-0007199,Engineering,Senior Manager,25.4,Band 3,3.3,113,1.4,2.7,1.9,1.7,0
+EMP-0009239,Marketing,Senior Manager,9.9,Band 2,2.7,112,3.7,1.5,2.6,3.7,1
+EMP-0014367,Sales,Associate,26.1,Band 1,2.6,67,6.9,3.5,2.5,8.7,0
+EMP-0000364,Marketing,Manager,11.7,Band 1,2.0,7,20.9,3.1,2.0,3.1,0
+EMP-0008187,Sales,Associate,4.1,Band 2,4.8,94,4.9,2.3,2.7,9.8,1
+EMP-0013494,Finance,Individual Contributor,4.5,Band 1,2.0,119,19.3,5.0,2.9,7.4,0
+EMP-0005038,Customer Success,VP,10.1,Band 5,3.1,112,20.9,3.2,1.0,1.6,0
+EMP-0000377,Sales,Manager,3.9,Band 2,3.6,60,18.2,4.4,1.9,3.8,0
+EMP-0012338,Sales,Senior Manager,1.9,Band 1,4.5,38,16.8,3.0,2.1,1.9,0
+EMP-0002845,Product,Senior Manager,5.4,Band 2,3.9,44,8.8,4.4,2.2,2.9,0
+EMP-0008041,Operations,Team Lead,18.4,Band 1,2.6,0,13.5,5.0,2.6,9.1,1
+EMP-0014620,Engineering,Associate,25.2,Band 2,4.1,68,9.5,4.6,4.0,3.8,1
+EMP-0010253,Operations,Associate,13.1,Band 2,3.2,98,3.9,4.2,5.0,7.8,1
+EMP-0006625,Product,Senior Manager,17.7,Band 2,4.5,90,1.2,3.2,2.1,1.6,0
+EMP-0006679,Legal,Team Lead,25.4,Band 5,3.7,5,22.5,2.8,4.2,4.1,0
+EMP-0007722,Product,Individual Contributor,22.5,Band 2,2.1,27,22.4,2.6,1.6,9.4,0
+EMP-0013126,Finance,Team Lead,25.6,Band 1,1.7,26,8.5,4.1,1.8,1.2,0
+EMP-0008249,Engineering,Team Lead,7.9,Band 6,2.2,21,11.7,4.6,2.2,9.1,0
+EMP-0009458,Product,Senior Manager,25.9,Band 3,2.0,99,0.2,2.7,1.9,0.4,0
+EMP-0003431,IT,VP,10.7,Band 5,4.0,8,22.0,4.2,1.2,8.2,0
+EMP-0014166,IT,Director,5.3,Band 5,2.7,112,12.5,4.9,3.7,9.8,0
+EMP-0004588,IT,VP,15.1,Band 1,4.7,38,3.8,4.0,3.8,6.7,0
+EMP-0009475,Engineering,VP,20.9,Band 1,3.7,80,11.0,3.0,5.0,2.1,1
+EMP-0007744,Product,Team Lead,25.8,Band 5,2.2,31,10.0,2.5,3.5,1.0,0
+EMP-0014337,Customer Success,Senior Manager,19.8,Band 1,1.8,38,8.5,3.8,3.0,6.8,1
+EMP-0009050,Customer Success,Individual Contributor,24.6,Band 4,2.5,37,16.5,3.2,3.6,3.9,0
+EMP-0002689,Marketing,Associate,23.7,Band 2,4.8,38,14.8,2.3,4.5,9.3,1
+EMP-0014791,Customer Success,Senior Manager,24.5,Band 3,2.2,27,16.7,2.3,4.3,4.5,0
+EMP-0009803,Customer Success,Manager,28.9,Band 6,3.1,11,19.1,2.8,3.1,2.0,1
+EMP-0000057,Operations,Associate,14.3,Band 3,1.9,76,18.7,2.1,3.4,9.1,1
+EMP-0008667,IT,Analyst,25.8,Band 2,2.1,16,1.1,1.7,3.1,7.3,0
+EMP-0001832,Product,Manager,26.0,Band 4,3.6,1,11.9,3.2,3.6,7.7,0
+EMP-0008290,Marketing,Manager,3.3,Band 3,1.9,37,18.1,2.9,4.8,8.2,0
+EMP-0011099,Sales,Senior Manager,11.1,Band 1,3.2,10,23.1,3.1,3.8,0.3,0
+EMP-0012243,Legal,Team Lead,7.6,Band 1,1.5,57,9.6,3.8,3.4,4.2,0
+EMP-0008910,Legal,Manager,24.7,Band 3,4.5,34,6.2,5.0,4.0,8.4,0
+EMP-0014167,Finance,Team Lead,27.0,Band 6,4.3,50,21.8,2.5,3.1,0.5,1
+EMP-0007318,Finance,Individual Contributor,2.6,Band 1,2.4,107,7.1,2.2,3.5,2.5,0
+EMP-0013218,Sales,Director,28.1,Band 3,2.1,59,6.8,2.6,5.0,8.4,0
+EMP-0006240,HR,Analyst,22.5,Band 2,3.1,101,18.4,2.5,3.4,5.6,1
+EMP-0006604,Finance,Associate,29.5,Band 4,2.4,94,8.8,4.1,2.4,5.9,0
+EMP-0014716,IT,VP,18.6,Band 6,1.9,57,0.7,2.7,4.7,9.9,0
+EMP-0006839,Legal,VP,7.3,Band 2,4.9,91,0.8,3.2,2.7,10.0,0
+EMP-0007785,Sales,Senior Manager,19.7,Band 3,1.5,81,0.2,5.0,1.0,6.6,0
+EMP-0014534,Operations,Senior Manager,23.9,Band 1,4.0,59,19.4,2.2,3.7,6.4,1
+EMP-0014192,HR,Team Lead,27.0,Band 5,4.0,31,5.9,3.8,1.4,1.0,1
+EMP-0012343,Sales,Director,7.3,Band 2,3.2,78,19.6,2.7,4.3,6.9,1
+EMP-0001831,Finance,Senior Manager,24.0,Band 1,2.0,37,9.5,3.3,3.0,9.6,0
+EMP-0013094,IT,VP,12.3,Band 1,4.1,81,22.3,4.3,5.0,1.2,0
+EMP-0000416,Marketing,Associate,11.0,Band 2,2.9,114,22.4,3.6,2.5,9.3,0
+EMP-0005518,Marketing,Director,6.7,Band 3,4.5,93,22.8,3.8,1.8,1.6,1
+EMP-0001498,Legal,Associate,6.6,Band 5,2.6,115,2.8,2.5,1.9,4.5,0
+EMP-0003577,Finance,Associate,25.4,Band 1,4.1,64,4.5,3.1,1.4,9.5,1
+EMP-0014082,Marketing,Individual Contributor,11.9,Band 2,2.3,37,4.7,3.4,4.0,3.3,0
+EMP-0010426,Sales,Associate,8.8,Band 1,2.9,41,0.9,4.8,1.7,7.3,0
+EMP-0001203,IT,Analyst,1.5,Band 2,1.7,5,15.1,5.0,1.7,9.3,1
+EMP-0003693,Sales,Director,8.3,Band 1,2.4,62,2.8,1.7,4.3,8.7,0
+EMP-0000101,HR,Associate,23.4,Band 2,4.4,26,11.2,2.6,3.1,6.3,0
+EMP-0003739,IT,Manager,5.7,Band 3,4.9,52,4.7,4.3,1.9,8.2,1
+EMP-0001319,Operations,Director,13.1,Band 2,2.9,76,21.5,1.0,2.6,10.0,0
+EMP-0006477,Marketing,VP,9.2,Band 4,4.0,95,10.8,3.7,2.9,4.3,1
+EMP-0008851,HR,Team Lead,9.5,Band 3,4.7,118,12.3,2.8,4.1,5.9,0
+EMP-0013658,Sales,Director,12.2,Band 4,3.2,87,2.2,3.8,1.9,5.5,0
+EMP-0007683,IT,Manager,5.5,Band 3,3.3,83,20.3,3.4,2.3,2.3,1
+EMP-0004145,Engineering,Associate,26.2,Band 2,4.1,37,9.5,4.5,2.4,9.8,0
+EMP-0000987,Finance,VP,2.9,Band 1,2.7,39,19.5,2.9,3.4,8.9,0
+EMP-0010248,IT,Manager,11.5,Band 2,1.6,51,4.2,4.7,5.0,4.0,0
+EMP-0006540,Legal,Team Lead,6.9,Band 2,3.7,117,7.1,2.0,3.5,2.8,1
+EMP-0001361,Engineering,Manager,6.8,Band 1,3.7,111,19.0,4.2,3.0,6.6,0
+EMP-0007651,IT,Senior Manager,26.6,Band 1,2.3,21,0.0,4.1,3.3,5.7,1
+EMP-0002598,Customer Success,Analyst,1.5,Band 4,1.6,46,1.7,2.9,2.8,4.1,0
+EMP-0009800,Operations,Team Lead,26.1,Band 4,4.1,66,19.9,2.3,3.6,5.6,0
+EMP-0002273,Engineering,Team Lead,14.0,Band 3,3.9,85,12.8,1.5,2.2,5.8,0
+EMP-0009028,Legal,VP,5.9,Band 1,4.5,100,16.6,3.0,3.4,1.4,0
+EMP-0012932,Finance,Senior Manager,24.1,Band 3,3.7,107,3.8,4.0,3.9,2.1,0
+EMP-0013007,HR,Analyst,11.8,Band 5,1.6,8,12.4,4.1,3.6,8.7,0
+EMP-0003166,Finance,VP,26.1,Band 1,3.6,93,1.9,2.6,3.0,8.9,0
+EMP-0011595,Legal,Individual Contributor,25.2,Band 3,3.0,85,9.5,3.7,2.5,1.3,0
+EMP-0006506,Legal,Manager,16.3,Band 3,4.5,31,12.4,4.0,1.8,5.1,0
+EMP-0012423,Legal,VP,14.8,Band 6,4.6,78,24.9,3.4,3.0,0.9,0
+EMP-0004104,IT,Manager,25.9,Band 1,2.0,63,1.5,3.8,2.6,0.2,0
+EMP-0013791,Operations,Analyst,18.6,Band 3,3.8,28,7.0,2.0,4.4,8.5,0
+EMP-0001942,HR,Associate,27.8,Band 3,3.9,118,8.4,2.9,3.2,7.6,0
+EMP-0005471,Finance,Senior Manager,7.6,Band 1,3.6,29,7.0,3.0,2.6,7.1,0
+EMP-0006461,Sales,Analyst,26.1,Band 1,3.4,70,24.6,2.2,2.5,8.2,1
+EMP-0014751,HR,Team Lead,5.0,Band 2,1.8,104,10.2,4.3,3.3,6.1,0
+EMP-0012073,Operations,Analyst,13.6,Band 5,4.8,35,5.5,3.0,2.6,5.5,0
+EMP-0003066,Legal,Associate,10.4,Band 2,2.7,54,19.9,4.1,3.8,4.8,0
+EMP-0000818,Customer Success,Senior Manager,8.2,Band 1,2.4,57,13.8,3.9,3.5,4.0,0
+EMP-0006337,Engineering,Analyst,21.1,Band 2,4.2,10,6.4,2.5,3.0,0.6,0
+EMP-0013081,HR,Associate,4.4,Band 3,1.6,27,3.1,3.1,3.4,4.7,0
+EMP-0012556,IT,VP,8.7,Band 2,3.0,88,6.3,5.0,2.9,9.6,0
+EMP-0000418,HR,Associate,9.0,Band 4,2.6,84,19.5,2.9,4.7,4.6,0
+EMP-0012992,HR,Senior Manager,22.1,Band 3,3.6,26,20.8,3.5,3.1,6.0,0
+EMP-0012458,IT,VP,1.2,Band 2,3.4,49,12.1,3.5,2.5,5.9,0
+EMP-0013095,Product,Director,21.1,Band 5,3.4,106,2.6,4.1,3.8,2.7,0
+EMP-0002247,Product,Manager,13.7,Band 1,4.5,94,21.5,3.6,3.8,3.8,1
+EMP-0009990,Product,Individual Contributor,16.0,Band 2,1.7,120,13.2,2.5,2.9,3.6,0
+EMP-0014204,Finance,Director,20.3,Band 3,4.0,17,8.7,3.1,2.2,1.4,0
+EMP-0002359,Sales,Team Lead,18.9,Band 2,4.2,95,17.4,3.1,4.0,2.7,1
+EMP-0006557,Customer Success,Manager,23.1,Band 3,4.9,66,9.6,5.0,4.2,8.7,0
+EMP-0012948,HR,Team Lead,29.3,Band 4,3.3,64,20.1,2.8,2.8,8.4,0
+EMP-0009194,Engineering,Associate,18.6,Band 3,2.2,91,4.7,5.0,3.0,0.6,0
+EMP-0004004,Engineering,Team Lead,11.4,Band 5,2.3,90,12.6,3.2,3.1,1.8,0
+EMP-0010917,Engineering,Team Lead,7.2,Band 6,4.4,21,19.6,3.3,3.8,5.4,0
+EMP-0006645,IT,VP,23.2,Band 5,4.4,94,15.7,4.3,2.2,6.2,0
+EMP-0013645,Sales,Manager,17.7,Band 2,2.1,110,11.2,2.0,3.7,5.8,1
+EMP-0003869,Legal,Manager,15.5,Band 1,2.6,34,5.7,2.3,2.3,5.0,1
+EMP-0010686,Product,VP,5.5,Band 2,4.4,70,15.6,4.1,1.9,9.3,0
+EMP-0006350,Legal,VP,12.1,Band 4,1.6,95,20.1,3.1,2.3,5.8,1
+EMP-0005686,Operations,Associate,28.2,Band 6,3.5,33,13.7,5.0,3.3,8.2,0
+EMP-0007571,Legal,VP,17.7,Band 2,3.1,40,10.9,3.4,2.6,3.8,0
+EMP-0000875,Sales,Manager,21.7,Band 2,4.2,8,4.0,3.3,2.3,9.0,0
+EMP-0010802,Product,VP,12.6,Band 2,2.8,88,16.4,3.4,5.0,2.7,0
+EMP-0003803,Marketing,Manager,26.8,Band 3,3.2,4,22.9,4.6,2.1,4.0,0
+EMP-0002759,Product,Associate,21.8,Band 3,1.7,44,16.8,2.9,2.2,6.8,1
+EMP-0012567,Sales,Senior Manager,4.8,Band 1,4.1,103,17.9,2.4,2.4,4.3,1
+EMP-0013209,Operations,Director,20.7,Band 3,3.8,38,7.5,4.0,3.0,2.7,0
+EMP-0008680,Product,Manager,6.7,Band 3,2.9,105,1.6,1.0,3.6,3.1,0
+EMP-0009479,Sales,Associate,23.6,Band 1,2.9,97,7.3,4.1,3.9,7.3,1
+EMP-0000675,IT,Team Lead,16.2,Band 4,2.1,102,12.8,2.1,3.4,0.9,1
+EMP-0010916,Operations,Analyst,1.6,Band 6,2.9,35,22.7,1.0,1.6,1.1,0
+EMP-0009013,Customer Success,Senior Manager,18.5,Band 2,1.6,57,4.1,1.7,2.7,8.7,1
+EMP-0014572,Operations,Director,7.6,Band 5,2.8,2,13.4,4.1,1.9,7.8,0
+EMP-0006347,IT,Individual Contributor,26.2,Band 5,4.7,10,2.7,2.3,3.8,5.1,0
+EMP-0012829,Product,Manager,19.5,Band 6,1.9,77,18.4,1.7,3.0,6.0,0
+EMP-0001514,Engineering,Team Lead,16.0,Band 3,1.5,12,10.2,2.9,2.8,4.3,0
+EMP-0006072,Product,Analyst,16.8,Band 5,1.8,48,14.4,3.4,3.5,9.7,0
+EMP-0011793,Legal,Individual Contributor,13.0,Band 2,3.8,96,19.2,3.1,2.2,3.1,0
+EMP-0000022,Operations,Senior Manager,8.8,Band 2,1.9,83,4.4,4.0,1.9,1.7,0
+EMP-0000349,Legal,Associate,28.4,Band 5,1.7,16,17.7,3.6,2.6,6.2,1
+EMP-0007529,Customer Success,Senior Manager,29.6,Band 5,2.0,39,23.0,1.9,4.0,9.4,1
+EMP-0012194,Customer Success,Analyst,27.1,Band 2,2.3,120,19.5,5.0,3.1,5.7,1
+EMP-0005685,IT,VP,25.7,Band 1,3.5,41,5.2,3.7,4.2,4.4,0
+EMP-0013309,HR,Individual Contributor,22.0,Band 2,4.3,105,17.1,3.3,1.7,3.9,0
+EMP-0004054,Finance,VP,2.3,Band 1,4.2,94,17.0,2.0,2.4,3.4,0
+EMP-0011840,Product,Analyst,6.4,Band 2,1.9,95,1.8,3.1,2.7,2.1,0
+EMP-0009867,Marketing,Manager,16.0,Band 3,3.9,81,1.9,3.2,3.9,7.0,0
+EMP-0013067,Legal,VP,22.1,Band 4,4.8,85,15.3,3.4,4.1,5.2,0
+EMP-0010770,Marketing,Director,10.8,Band 1,3.1,96,0.9,2.4,3.6,8.4,1
+EMP-0007636,Engineering,Team Lead,20.1,Band 3,4.7,6,9.2,3.6,1.7,9.5,1
+EMP-0014215,Sales,Associate,12.5,Band 3,2.4,2,9.5,1.7,2.7,6.5,0
+EMP-0010561,IT,Individual Contributor,20.3,Band 2,4.9,82,13.5,3.9,3.0,4.7,0
+EMP-0003155,Customer Success,Associate,4.7,Band 1,3.3,68,0.7,2.3,2.6,4.2,1
+EMP-0006426,Sales,Senior Manager,29.4,Band 3,4.0,89,12.9,3.5,3.7,0.6,0
+EMP-0001442,Legal,Associate,23.4,Band 4,2.1,16,22.0,2.6,3.6,9.4,0
+EMP-0006243,Customer Success,Senior Manager,13.8,Band 6,4.0,2,12.2,4.7,1.7,7.4,0
+EMP-0001234,Finance,Team Lead,5.3,Band 1,3.5,81,19.5,2.0,2.9,1.9,0
+EMP-0014783,Customer Success,Team Lead,23.4,Band 2,4.0,39,11.5,2.7,2.8,0.5,0
+EMP-0005544,Operations,Analyst,2.6,Band 6,3.1,70,16.2,3.1,3.0,7.4,0
+EMP-0013528,IT,Team Lead,18.8,Band 2,3.5,8,13.7,3.8,4.9,10.0,0
+EMP-0013108,Operations,Team Lead,27.5,Band 2,2.0,106,15.8,2.7,2.9,9.1,0
+EMP-0014055,Customer Success,Analyst,3.4,Band 3,1.8,44,19.8,2.9,2.3,2.0,0
+EMP-0011659,Sales,Team Lead,20.3,Band 5,2.8,100,12.5,3.3,5.0,2.7,0
+EMP-0007177,Product,Associate,24.3,Band 1,1.9,65,14.6,3.0,3.0,0.8,0
+EMP-0008486,Operations,Team Lead,4.1,Band 1,1.7,28,7.8,3.1,3.0,0.5,0
+EMP-0004436,Legal,Senior Manager,15.0,Band 1,4.5,99,21.2,4.0,4.4,9.2,0
+EMP-0002106,Customer Success,Senior Manager,19.9,Band 1,4.2,113,21.0,3.0,3.1,0.1,1
+EMP-0010189,Sales,Associate,5.0,Band 1,4.3,20,12.8,1.9,4.6,9.8,0
+EMP-0014653,Operations,Team Lead,9.0,Band 2,1.7,46,13.2,2.8,3.5,3.6,0
+EMP-0000988,Legal,VP,16.1,Band 4,3.2,17,8.7,4.0,3.0,7.5,0
+EMP-0000936,IT,Associate,4.0,Band 5,4.5,85,11.0,1.9,3.2,6.7,0
+EMP-0008468,Marketing,Associate,9.2,Band 2,3.5,83,11.3,1.2,4.8,0.5,0
+EMP-0008993,Finance,VP,29.7,Band 5,4.2,59,10.8,4.9,5.0,3.5,1
+EMP-0010583,Legal,Manager,21.4,Band 4,4.4,33,23.6,3.2,3.5,7.0,1
+EMP-0012563,Sales,Director,9.0,Band 1,4.9,44,4.7,2.0,3.6,2.0,0
+EMP-0003638,IT,Associate,1.7,Band 1,5.0,72,1.7,4.1,2.3,6.5,0
+EMP-0011395,IT,Director,3.1,Band 5,4.3,42,22.5,3.3,3.4,9.0,0
+EMP-0008347,Operations,Manager,1.7,Band 1,2.7,94,1.3,3.3,2.7,4.3,1
+EMP-0011218,Marketing,Director,24.2,Band 2,3.4,48,2.5,2.9,1.4,8.3,1
+EMP-0000452,Legal,Senior Manager,26.8,Band 4,3.2,116,13.4,2.6,3.8,6.6,0
+EMP-0007639,Customer Success,Director,12.3,Band 3,2.8,87,12.4,2.6,3.5,3.2,0
+EMP-0005676,HR,VP,4.4,Band 4,4.4,56,20.9,2.9,4.2,5.5,0
+EMP-0007125,Finance,VP,19.5,Band 6,4.5,68,2.9,3.6,2.8,3.4,0
+EMP-0011306,IT,Team Lead,27.4,Band 3,4.0,76,20.7,4.0,1.9,9.0,0
+EMP-0010695,Legal,Individual Contributor,21.3,Band 2,5.0,2,9.7,1.1,2.2,7.7,0
+EMP-0012711,Engineering,VP,0.8,Band 2,3.5,23,4.1,2.4,1.6,5.4,0
+EMP-0014190,Legal,Director,9.7,Band 1,1.7,40,12.7,2.2,3.6,9.2,1
+EMP-0009573,Legal,Team Lead,9.7,Band 2,2.2,63,2.7,4.5,2.0,2.4,0
+EMP-0005624,Product,Manager,17.4,Band 1,1.7,95,11.3,3.1,1.9,7.7,0
+EMP-0003597,HR,Team Lead,1.3,Band 5,1.5,8,19.0,2.1,4.3,1.5,0
+EMP-0010453,Engineering,VP,5.8,Band 3,3.7,51,24.4,3.3,4.1,1.0,0
+EMP-0001033,Marketing,Analyst,21.4,Band 1,4.0,120,16.1,2.6,3.1,2.3,1
+EMP-0006753,IT,Manager,12.1,Band 2,1.6,96,12.3,3.7,1.7,7.3,0
+EMP-0014750,Engineering,VP,6.0,Band 3,2.9,36,21.6,3.0,2.6,0.3,0
+EMP-0007401,Engineering,Manager,5.8,Band 2,4.4,120,13.0,2.9,4.0,5.1,0
+EMP-0002303,Engineering,Senior Manager,23.0,Band 4,3.8,14,11.1,2.4,3.6,8.7,0
+EMP-0000413,Sales,VP,6.0,Band 3,1.7,91,12.5,3.7,3.7,3.0,0
+EMP-0005412,Customer Success,Team Lead,19.8,Band 3,2.5,27,11.0,3.1,2.3,5.8,0
+EMP-0011849,Marketing,VP,16.1,Band 2,2.4,89,19.3,1.0,1.7,5.0,1
+EMP-0002591,Marketing,Analyst,14.1,Band 5,4.3,5,1.6,2.8,1.8,8.0,0
+EMP-0010746,HR,Team Lead,16.0,Band 2,2.0,107,13.2,3.3,3.2,7.8,0
+EMP-0000130,Legal,Team Lead,3.8,Band 3,3.0,120,7.4,3.2,3.0,5.0,0
+EMP-0012682,Product,VP,24.6,Band 1,2.3,112,1.6,3.8,5.0,4.4,0
+EMP-0007127,Finance,Manager,2.4,Band 2,4.7,4,10.2,3.6,3.1,5.7,0
+EMP-0002744,Customer Success,Analyst,26.4,Band 4,3.2,47,15.0,2.5,3.8,8.3,1
+EMP-0014948,Engineering,Director,3.7,Band 1,2.2,42,16.2,2.6,3.0,3.7,0
+EMP-0000431,Customer Success,VP,3.7,Band 4,3.9,85,20.5,3.4,2.7,6.6,0
+EMP-0002299,Customer Success,VP,24.7,Band 5,2.8,79,15.9,1.2,4.3,7.1,1
+EMP-0005054,Finance,Individual Contributor,27.5,Band 4,4.1,57,15.9,2.9,2.3,4.5,0
+EMP-0011496,Legal,Associate,19.0,Band 3,4.8,99,3.1,1.9,3.2,1.8,0
+EMP-0001432,Product,Analyst,29.9,Band 4,3.5,93,2.4,2.9,3.1,5.0,0
+EMP-0007937,Engineering,Manager,5.0,Band 4,4.2,106,13.2,3.7,2.0,4.4,0
+EMP-0005419,Operations,Senior Manager,13.6,Band 3,2.4,60,9.1,4.6,4.2,2.4,1
+EMP-0010969,HR,Senior Manager,1.7,Band 2,2.9,43,0.2,2.6,3.7,3.3,1
+EMP-0001321,Product,Director,12.9,Band 1,2.0,100,22.8,1.7,3.7,7.6,0
+EMP-0004847,Sales,Director,23.6,Band 1,2.4,92,20.9,3.4,4.4,6.2,1
+EMP-0013172,Customer Success,Associate,17.6,Band 3,1.8,119,24.8,1.8,2.7,1.2,0
+EMP-0011564,Customer Success,Senior Manager,28.0,Band 2,2.2,74,2.5,3.4,4.8,6.1,0
+EMP-0007373,Engineering,Team Lead,27.7,Band 3,3.0,103,6.1,3.9,1.8,0.1,0
+EMP-0012989,HR,Analyst,18.9,Band 5,3.5,67,17.0,3.1,1.7,2.4,0
+EMP-0003125,HR,Associate,9.7,Band 4,2.5,105,12.6,3.0,3.8,7.7,1
+EMP-0003640,Customer Success,Analyst,1.6,Band 2,2.3,16,3.4,3.2,2.6,0.4,1
+EMP-0011428,Operations,Associate,27.8,Band 1,2.6,93,0.4,3.9,1.9,2.2,0
+EMP-0003760,IT,Associate,4.2,Band 1,2.8,115,12.2,3.7,3.8,2.6,0
+EMP-0013986,Customer Success,Senior Manager,27.0,Band 2,2.6,63,11.2,3.9,1.2,6.4,1
+EMP-0007060,IT,Senior Manager,14.3,Band 4,4.6,35,10.6,3.6,1.0,2.9,0
+EMP-0000592,IT,Individual Contributor,7.2,Band 4,4.9,102,2.4,2.3,4.1,7.5,0
+EMP-0010165,Sales,Manager,13.8,Band 2,2.1,20,7.8,2.4,1.9,9.3,0
+EMP-0009124,Customer Success,Manager,20.6,Band 4,3.0,60,6.7,3.6,3.6,5.2,1
+EMP-0002926,Marketing,VP,5.4,Band 1,2.0,19,3.4,4.5,2.7,2.2,0
+EMP-0013270,Marketing,Manager,2.2,Band 6,3.7,113,8.7,1.7,3.5,2.4,0
+EMP-0000761,Customer Success,Team Lead,18.1,Band 4,3.8,10,14.8,2.0,3.6,6.9,1
+EMP-0004083,Marketing,Individual Contributor,17.2,Band 2,3.8,110,17.5,4.2,3.4,2.2,0
+EMP-0013461,HR,Team Lead,9.1,Band 1,4.5,7,17.9,2.5,5.0,1.6,0
+EMP-0004406,Customer Success,VP,15.8,Band 3,3.7,69,10.2,3.0,4.4,7.5,1
+EMP-0005287,Operations,Associate,5.0,Band 4,1.8,113,9.4,3.6,4.8,9.1,0
+EMP-0007085,Customer Success,Manager,19.6,Band 2,1.8,118,10.0,3.8,4.8,2.2,0
+EMP-0009427,Engineering,Manager,11.6,Band 4,3.0,18,17.6,3.8,2.9,8.4,1
+EMP-0008907,Finance,Manager,27.3,Band 6,3.1,3,12.8,2.7,2.3,1.7,0
+EMP-0012401,Engineering,Director,18.8,Band 4,2.4,53,22.9,4.2,2.2,4.3,0
+EMP-0014655,Engineering,Analyst,2.3,Band 2,2.5,102,22.3,2.8,1.9,7.8,0
+EMP-0011688,Engineering,Analyst,19.1,Band 6,2.4,84,17.1,4.6,2.8,2.6,0
+EMP-0011558,Operations,VP,18.4,Band 2,5.0,102,14.0,4.0,3.1,6.8,0
+EMP-0001938,Sales,Associate,8.8,Band 4,3.0,120,3.8,2.2,2.0,6.2,1
+EMP-0014559,IT,Team Lead,7.4,Band 2,2.2,39,7.0,4.1,2.0,4.6,0
+EMP-0013831,HR,VP,3.9,Band 3,3.5,74,5.5,3.3,3.3,3.5,1
+EMP-0009764,Finance,Team Lead,19.0,Band 4,3.5,62,2.6,3.7,3.4,4.0,1
+EMP-0013555,Marketing,VP,19.7,Band 4,4.0,21,9.2,3.1,2.7,1.5,1
+EMP-0013557,Operations,Analyst,22.4,Band 2,4.1,10,10.7,2.3,4.2,4.7,0
+EMP-0003670,Product,Individual Contributor,8.0,Band 3,3.1,116,7.4,3.7,2.4,0.9,0
+EMP-0005734,IT,Manager,6.1,Band 4,2.2,54,0.8,2.9,3.8,4.3,0
+EMP-0012783,HR,Analyst,6.2,Band 1,4.9,73,13.2,4.2,2.1,4.0,0
+EMP-0012739,Customer Success,VP,7.5,Band 3,4.3,115,0.4,4.0,4.2,0.9,0
+EMP-0007410,Operations,Individual Contributor,1.6,Band 1,4.4,21,22.9,2.1,1.8,5.1,1
+EMP-0003548,Sales,Associate,5.5,Band 2,4.5,61,1.7,3.5,3.4,4.9,0
+EMP-0002750,Customer Success,Associate,20.3,Band 3,3.6,87,21.7,3.0,3.2,3.6,0
+EMP-0003282,Engineering,Individual Contributor,22.8,Band 1,3.5,117,18.3,3.9,1.9,6.6,0
+EMP-0007762,Engineering,Director,23.0,Band 2,1.8,72,11.1,3.6,4.3,7.6,0
+EMP-0014763,Engineering,Analyst,2.1,Band 1,3.3,72,2.1,3.0,3.3,4.7,0
+EMP-0011806,Sales,Individual Contributor,14.1,Band 5,1.6,91,7.2,4.2,3.4,10.0,0
+EMP-0007110,Marketing,Individual Contributor,2.7,Band 4,3.8,86,13.6,3.5,2.4,1.2,0
+EMP-0004431,HR,Manager,24.7,Band 1,5.0,42,17.4,3.0,1.9,7.2,0
+EMP-0003086,Marketing,Team Lead,2.0,Band 1,2.1,64,16.6,3.8,3.1,5.5,0
+EMP-0007161,Finance,Individual Contributor,20.8,Band 2,1.7,74,1.3,4.0,3.6,7.7,0
+EMP-0002770,Legal,Director,17.2,Band 1,4.6,4,9.9,1.7,4.4,5.0,0
+EMP-0009798,Customer Success,Analyst,13.1,Band 4,4.2,9,18.2,1.7,4.4,7.2,1
+EMP-0012789,Finance,Associate,5.4,Band 2,2.2,99,8.7,1.8,3.1,2.1,0
+EMP-0014591,IT,Analyst,29.4,Band 3,4.5,3,18.2,3.1,3.7,4.2,1
+EMP-0002371,Customer Success,Manager,13.4,Band 6,1.6,85,9.9,1.4,3.7,7.3,0
+EMP-0013194,Engineering,Manager,12.2,Band 6,4.9,0,18.6,3.4,1.7,9.6,0
+EMP-0010004,Legal,Manager,13.8,Band 2,2.7,61,0.7,3.1,1.7,7.9,1
+EMP-0009936,Marketing,VP,2.3,Band 3,5.0,22,21.4,2.5,2.5,7.9,0
+EMP-0011598,Finance,Associate,8.4,Band 6,1.9,93,23.4,1.9,3.3,1.1,1
+EMP-0002361,Marketing,Team Lead,0.8,Band 4,2.4,75,3.8,3.2,4.2,7.0,0
+EMP-0003229,Sales,VP,27.4,Band 3,4.2,26,17.1,1.3,2.6,4.7,0
+EMP-0003058,IT,Senior Manager,5.8,Band 5,2.5,63,15.6,3.1,4.5,1.8,1
+EMP-0008610,IT,Manager,29.8,Band 5,3.9,39,12.8,2.5,2.2,7.4,0
+EMP-0006671,Sales,VP,17.9,Band 5,2.5,51,7.4,3.6,2.6,6.0,0
+EMP-0010447,Customer Success,Team Lead,24.8,Band 2,4.9,35,8.6,4.1,4.3,0.3,1
+EMP-0010905,Operations,Analyst,18.1,Band 5,1.8,25,1.1,1.8,4.3,3.6,1
+EMP-0003765,Marketing,Manager,11.4,Band 3,2.1,57,24.8,3.9,4.3,0.7,1
+EMP-0003707,Legal,Analyst,15.9,Band 2,1.6,45,19.9,3.9,2.7,4.9,1
+EMP-0002867,Marketing,VP,20.7,Band 3,1.6,119,23.0,4.2,4.3,5.9,0
+EMP-0010639,Legal,Associate,6.5,Band 2,1.9,70,13.5,3.1,4.0,4.0,0
+EMP-0011887,Sales,Manager,5.2,Band 1,1.5,45,5.1,4.5,4.1,6.7,0
+EMP-0005037,Product,Director,6.8,Band 3,4.3,20,7.4,1.3,4.2,3.2,0
+EMP-0006378,Legal,Director,3.8,Band 3,2.0,64,14.6,3.0,3.5,8.4,0
+EMP-0014685,Product,Analyst,9.7,Band 6,3.5,24,5.7,2.4,2.9,2.0,1
+EMP-0005898,Sales,VP,8.7,Band 3,4.7,89,3.2,4.1,3.3,2.5,0
+EMP-0010314,Finance,Director,2.5,Band 1,1.6,63,8.5,3.1,1.8,6.0,1
+EMP-0012742,Customer Success,VP,20.3,Band 3,3.5,91,8.3,4.6,1.7,8.0,0
+EMP-0009767,Customer Success,Associate,20.1,Band 1,3.5,16,16.3,4.1,1.5,6.0,0
+EMP-0013303,IT,Manager,22.0,Band 1,3.4,95,5.3,3.2,3.8,4.1,0
+EMP-0004973,Sales,Director,1.0,Band 1,3.6,105,2.4,3.6,4.0,5.6,0
+EMP-0009333,Legal,Team Lead,0.9,Band 4,2.3,66,24.9,3.3,3.6,9.6,0
+EMP-0005428,Product,Senior Manager,5.2,Band 1,2.9,65,0.7,2.2,4.7,0.4,0
+EMP-0009316,Customer Success,Analyst,23.0,Band 3,3.1,20,23.6,4.1,1.8,6.0,0
+EMP-0009499,Sales,Analyst,15.3,Band 5,1.8,93,21.8,3.2,2.3,6.7,0
+EMP-0003777,IT,VP,26.0,Band 1,3.8,77,14.7,1.7,5.0,6.0,1
+EMP-0002443,HR,Director,16.5,Band 1,3.5,32,11.4,3.6,3.4,9.4,0
+EMP-0000455,Finance,Senior Manager,16.8,Band 4,4.9,14,18.1,2.8,4.5,9.9,0
+EMP-0000647,Legal,VP,25.3,Band 2,3.2,16,16.5,4.7,3.3,8.8,0
+EMP-0011714,Product,Manager,6.4,Band 1,1.9,59,2.6,1.3,2.6,4.7,0
+EMP-0010610,Product,Team Lead,1.5,Band 2,1.7,1,1.6,3.6,2.8,5.0,1
+EMP-0007357,Engineering,Director,25.3,Band 2,1.6,55,5.9,3.9,3.5,8.8,1
+EMP-0008302,Customer Success,Senior Manager,22.3,Band 2,2.6,19,6.9,2.1,2.0,3.4,0
+EMP-0001887,Marketing,VP,10.9,Band 1,4.1,18,17.6,3.4,3.0,9.7,0
+EMP-0006177,HR,Manager,19.4,Band 4,4.3,75,10.1,1.9,3.3,2.3,0
+EMP-0008503,Operations,Individual Contributor,28.7,Band 1,3.8,60,15.9,3.9,2.4,7.3,0
+EMP-0003858,Sales,Manager,18.8,Band 5,4.8,71,20.7,4.0,2.9,1.2,0
+EMP-0011726,Operations,Senior Manager,5.6,Band 5,2.0,27,7.7,2.9,3.6,3.6,0
+EMP-0001602,HR,Director,13.3,Band 3,2.8,64,22.7,4.6,2.9,7.0,1
+EMP-0002774,IT,Manager,18.1,Band 4,1.7,50,6.2,2.6,2.3,2.5,0
+EMP-0000992,Finance,Manager,29.4,Band 3,4.2,61,15.3,2.1,2.7,2.8,0
+EMP-0004286,Marketing,Analyst,16.2,Band 3,2.8,114,18.4,3.5,2.3,7.9,0
+EMP-0006268,Finance,Manager,6.5,Band 5,4.7,8,0.1,2.8,4.6,2.9,0
+EMP-0007656,HR,Director,17.9,Band 5,3.5,72,20.2,4.2,2.9,0.8,0
+EMP-0005384,Marketing,Director,3.4,Band 3,4.7,50,16.3,3.9,2.5,9.0,0
+EMP-0002366,Product,Associate,18.2,Band 3,4.5,21,19.1,3.0,3.0,9.5,1
+EMP-0010330,IT,Team Lead,27.5,Band 1,2.6,48,6.9,2.6,2.6,4.2,1
+EMP-0012015,Sales,Individual Contributor,12.3,Band 4,3.1,59,16.4,3.5,4.3,0.8,0
+EMP-0009125,Finance,Manager,5.1,Band 1,2.7,43,0.5,3.2,3.0,9.5,0
+EMP-0012797,Operations,Team Lead,13.9,Band 1,4.6,109,16.3,4.2,3.1,6.9,1
+EMP-0014474,HR,Individual Contributor,12.6,Band 1,2.1,69,5.2,3.1,2.4,3.9,0
+EMP-0007366,Legal,Senior Manager,11.6,Band 1,1.9,78,9.0,4.3,2.0,4.8,0
+EMP-0001597,Finance,Analyst,28.6,Band 1,4.2,71,8.6,2.9,3.3,4.5,1
+EMP-0005387,Finance,Analyst,0.9,Band 4,2.9,31,0.8,2.9,4.4,6.7,0
+EMP-0004391,Finance,Team Lead,12.4,Band 2,3.5,2,24.2,1.7,3.5,9.3,1
+EMP-0007042,Sales,Director,1.4,Band 5,1.6,7,24.7,4.0,3.5,7.8,0
+EMP-0005564,Marketing,Individual Contributor,26.2,Band 4,4.9,99,23.8,3.2,2.6,4.1,0
+EMP-0003023,HR,Analyst,3.8,Band 1,4.7,36,19.8,3.1,4.7,1.5,0
+EMP-0012492,Marketing,Manager,29.7,Band 5,1.6,80,20.7,2.9,2.8,8.7,0
+EMP-0008315,IT,Analyst,21.3,Band 1,2.1,63,13.5,2.3,3.5,2.7,0
+EMP-0002969,Legal,VP,2.0,Band 6,3.9,32,0.1,3.8,2.0,6.4,0
+EMP-0002665,HR,VP,22.6,Band 2,3.8,35,8.9,4.0,1.5,6.9,0
+EMP-0005615,Marketing,Manager,20.5,Band 4,2.6,21,14.6,2.6,2.0,0.9,0
+EMP-0006729,Marketing,Individual Contributor,14.8,Band 2,1.6,87,19.7,3.0,4.8,8.6,1
+EMP-0010392,Product,Director,29.5,Band 1,3.1,56,9.9,3.6,2.5,8.9,0
+EMP-0009587,Marketing,Manager,22.9,Band 4,4.3,84,23.5,2.5,3.9,4.8,0
+EMP-0005199,IT,Analyst,25.3,Band 5,2.1,9,17.5,2.1,3.9,4.4,0
+EMP-0011707,Operations,Associate,17.2,Band 2,3.0,70,19.3,3.7,3.2,4.7,1
+EMP-0003678,Operations,Director,16.3,Band 4,3.4,114,14.3,2.5,2.7,8.5,0
+EMP-0009443,Marketing,Team Lead,11.4,Band 4,2.4,25,14.0,4.4,2.5,5.3,0
+EMP-0008760,Marketing,Team Lead,23.0,Band 4,4.5,69,1.8,3.0,3.3,3.5,0
+EMP-0004018,Finance,Manager,2.8,Band 1,3.4,8,11.2,2.3,2.0,4.6,0
+EMP-0004099,HR,Associate,12.3,Band 2,2.9,71,5.6,3.1,2.2,5.1,1
+EMP-0006634,Product,VP,2.8,Band 4,3.9,88,2.6,2.6,4.1,4.1,0
+EMP-0007215,Legal,Analyst,26.3,Band 2,4.1,55,20.2,3.8,3.6,8.5,0
+EMP-0000274,HR,Analyst,16.8,Band 2,1.8,46,5.3,3.4,2.0,3.8,0
+EMP-0009808,Legal,Team Lead,14.6,Band 1,1.9,29,12.7,4.7,2.7,3.0,0
+EMP-0011990,Sales,Analyst,15.0,Band 2,1.8,8,18.5,4.7,3.6,0.1,1
+EMP-0004254,HR,Associate,18.2,Band 5,2.2,107,13.0,2.3,1.0,1.9,0
+EMP-0009030,Legal,Manager,26.6,Band 1,3.4,78,18.9,3.2,1.8,0.4,0
+EMP-0014491,Legal,Analyst,15.2,Band 1,1.8,79,18.7,1.8,3.9,7.7,1
+EMP-0006405,Finance,Individual Contributor,5.1,Band 3,3.7,115,13.1,2.8,2.7,7.3,0
+EMP-0014564,Engineering,Associate,24.1,Band 2,1.9,80,16.3,2.4,3.6,6.6,0
+EMP-0011912,Marketing,VP,20.8,Band 3,1.8,69,5.7,2.7,2.4,6.3,0
+EMP-0007967,Sales,Analyst,13.5,Band 3,2.7,3,7.1,4.8,2.9,6.0,0
+EMP-0007545,Engineering,Manager,11.1,Band 3,3.6,106,18.1,4.1,3.4,0.6,0
+EMP-0008466,Marketing,Manager,27.8,Band 5,4.6,104,5.5,3.5,3.8,0.2,0
+EMP-0008866,Finance,Senior Manager,10.4,Band 2,2.1,93,1.8,3.0,4.0,9.4,0
+EMP-0002329,HR,Senior Manager,15.9,Band 1,3.5,40,4.1,3.0,3.5,2.9,0
+EMP-0002253,Finance,Associate,13.4,Band 1,2.4,87,1.5,2.0,2.9,2.4,1
+EMP-0003392,Marketing,Individual Contributor,20.2,Band 1,2.9,32,16.0,2.6,4.6,9.4,0
+EMP-0003183,Sales,VP,8.4,Band 1,2.7,54,1.9,2.0,2.3,9.5,0
+EMP-0007890,Marketing,Director,16.0,Band 3,2.3,11,8.7,2.8,2.4,4.1,0
+EMP-0012131,Operations,Director,26.9,Band 1,2.1,56,19.9,2.7,4.7,9.4,1
+EMP-0000983,Operations,Senior Manager,28.8,Band 6,3.9,72,2.5,2.2,3.6,5.2,1
+EMP-0014729,Product,Senior Manager,25.4,Band 4,2.5,40,7.3,3.1,3.7,3.8,0
+EMP-0005281,Finance,Associate,12.4,Band 2,1.7,7,9.9,3.5,2.5,5.2,0
+EMP-0009500,IT,Associate,29.8,Band 4,2.9,67,10.2,3.9,2.2,0.6,0
+EMP-0000789,HR,Individual Contributor,3.5,Band 2,4.9,92,12.5,2.9,3.5,4.3,1
+EMP-0008211,HR,Associate,17.6,Band 3,4.1,86,24.8,2.6,4.3,6.8,0
+EMP-0011397,Sales,Analyst,18.9,Band 3,4.5,17,20.0,2.5,2.4,8.7,0
+EMP-0010951,Product,Associate,23.4,Band 4,1.9,15,21.7,2.5,3.0,3.6,0
+EMP-0011988,Sales,VP,29.3,Band 1,3.2,9,5.9,4.4,2.0,5.0,0
+EMP-0013732,Finance,Senior Manager,11.4,Band 3,3.2,21,21.5,2.5,2.3,6.8,1
+EMP-0013315,Legal,VP,29.7,Band 3,1.7,94,21.6,2.3,2.5,6.7,1
+EMP-0007342,Sales,Analyst,11.4,Band 1,2.0,30,16.1,2.4,3.5,1.8,0
+EMP-0001088,Product,Associate,12.6,Band 4,4.9,62,23.9,1.0,1.1,4.3,1
+EMP-0006183,Customer Success,Manager,3.7,Band 4,4.1,1,0.1,4.1,2.3,8.0,1
+EMP-0003536,Operations,Associate,16.6,Band 4,1.7,47,10.3,2.7,1.9,3.5,1
+EMP-0007402,Operations,Director,19.9,Band 1,1.7,24,5.8,2.9,1.9,8.0,1
+EMP-0010099,Product,Director,19.3,Band 2,3.4,12,12.4,3.1,2.0,4.4,1
+EMP-0009489,IT,Senior Manager,20.7,Band 2,3.1,39,19.3,4.7,3.0,0.8,0
+EMP-0012494,IT,VP,14.2,Band 2,3.2,74,25.0,2.9,2.8,5.9,0
+EMP-0002311,HR,Senior Manager,2.8,Band 2,1.5,60,17.7,1.7,3.8,9.0,0
+EMP-0001692,Engineering,Team Lead,22.6,Band 2,2.3,58,14.8,3.9,3.8,9.4,0
+EMP-0001526,Sales,Associate,22.5,Band 1,4.5,98,5.5,2.6,2.6,6.4,1
+EMP-0001859,IT,Senior Manager,8.1,Band 3,2.9,96,13.6,2.8,2.9,6.9,0
+EMP-0002716,Sales,VP,8.6,Band 3,2.0,11,21.5,3.7,3.8,6.1,1
+EMP-0004160,HR,Senior Manager,24.6,Band 2,3.4,71,7.1,2.8,3.7,3.3,1
+EMP-0009616,Product,Senior Manager,28.4,Band 1,4.4,17,4.9,2.8,5.0,4.8,0
+EMP-0003256,Customer Success,VP,19.4,Band 1,2.1,58,15.5,2.7,2.7,6.7,0
+EMP-0012936,Marketing,VP,6.8,Band 1,4.1,53,24.1,3.3,1.9,4.3,0
+EMP-0006241,HR,VP,25.3,Band 1,4.2,106,10.1,1.5,2.4,7.6,1
+EMP-0004727,Product,Senior Manager,23.0,Band 2,3.6,87,11.5,3.5,2.0,6.3,0
+EMP-0004968,Finance,Senior Manager,14.7,Band 5,1.8,38,23.5,4.4,3.2,9.8,0
+EMP-0010067,Operations,Analyst,28.2,Band 1,1.6,41,24.7,3.4,2.0,7.3,1
+EMP-0004816,Marketing,Manager,25.9,Band 5,1.9,2,1.6,2.1,1.0,3.9,0
+EMP-0008892,IT,Manager,27.6,Band 4,3.8,22,4.0,2.4,1.7,8.6,0
+EMP-0006318,Customer Success,Associate,13.1,Band 4,2.6,72,17.6,3.3,2.6,7.1,0
+EMP-0006835,Product,Senior Manager,7.5,Band 3,3.2,68,7.2,2.3,5.0,4.9,0
+EMP-0004005,Legal,Analyst,7.9,Band 2,2.9,4,2.7,3.3,3.7,8.1,1
+EMP-0013365,HR,Team Lead,26.8,Band 1,2.7,120,24.5,3.7,4.5,0.4,1
+EMP-0013386,Marketing,VP,2.3,Band 6,4.0,113,18.6,4.1,1.5,4.5,0
+EMP-0006244,Sales,Individual Contributor,25.6,Band 4,3.4,18,5.7,2.7,3.2,2.0,1
+EMP-0008791,Operations,Team Lead,13.1,Band 4,2.7,19,23.3,1.8,2.2,3.5,1
+EMP-0000633,Customer Success,Analyst,17.8,Band 5,1.6,117,20.3,3.2,2.2,2.5,1
+EMP-0008436,HR,Manager,24.8,Band 2,2.0,79,4.4,2.7,1.0,1.8,0
+EMP-0014680,Product,Manager,14.4,Band 2,2.8,14,20.9,3.9,2.3,10.0,1
+EMP-0013053,Legal,Manager,0.8,Band 6,3.5,34,20.7,3.1,1.9,7.9,0
+EMP-0009947,HR,Senior Manager,20.2,Band 1,4.7,77,1.1,3.0,1.5,8.3,0
+EMP-0008830,Sales,Analyst,28.1,Band 1,3.8,64,6.0,4.2,5.0,3.4,0
+EMP-0014697,Product,Individual Contributor,8.7,Band 5,1.6,25,14.9,4.4,3.9,0.3,0
+EMP-0005835,Finance,Director,3.7,Band 3,3.2,70,9.3,4.2,2.9,4.8,0
+EMP-0003184,Finance,Manager,3.7,Band 3,3.4,106,9.5,2.6,4.0,6.8,0
+EMP-0001401,Customer Success,Associate,5.2,Band 4,1.7,23,22.9,3.7,3.1,4.4,0
+EMP-0011767,Sales,VP,14.8,Band 1,4.7,35,22.5,3.3,1.9,5.4,1
+EMP-0009135,Operations,Manager,25.4,Band 3,3.2,61,2.4,2.8,2.8,5.2,0
+EMP-0006715,HR,Individual Contributor,0.9,Band 2,3.7,117,4.7,1.5,3.1,4.7,1
+EMP-0000759,Finance,Director,8.7,Band 2,4.2,86,11.2,3.6,2.3,1.0,0
+EMP-0003716,Marketing,Associate,20.6,Band 3,3.3,67,4.4,2.3,1.0,1.7,1
+EMP-0002147,Marketing,Associate,0.5,Band 1,4.2,84,13.3,3.5,4.0,5.9,0
+EMP-0006144,Sales,Individual Contributor,26.2,Band 6,3.3,113,7.7,3.2,3.4,8.4,0
+EMP-0011954,Operations,Associate,26.9,Band 3,4.7,70,11.8,2.6,1.8,7.0,1
+EMP-0003257,Engineering,Manager,13.9,Band 3,4.6,74,4.4,3.8,3.1,7.8,0
+EMP-0009108,Legal,Director,7.2,Band 3,4.5,25,22.8,3.4,3.1,2.5,0
+EMP-0011802,IT,Analyst,1.2,Band 3,4.4,82,13.4,1.6,3.1,6.3,0
+EMP-0012165,Product,Analyst,20.9,Band 1,4.6,106,14.4,4.4,4.3,7.7,0
+EMP-0010378,Marketing,Senior Manager,2.2,Band 1,4.8,52,23.8,2.4,4.6,9.4,0
+EMP-0002385,HR,Team Lead,5.6,Band 3,4.5,50,2.2,2.4,3.3,6.5,0
+EMP-0010429,IT,Individual Contributor,20.4,Band 5,4.4,112,0.2,3.9,3.7,4.9,0
+EMP-0014882,IT,Analyst,11.0,Band 3,3.6,55,21.5,3.3,2.0,9.8,0
+EMP-0007430,Finance,Director,1.7,Band 1,3.2,55,7.2,2.6,5.0,6.4,0
+EMP-0000726,Sales,Director,7.8,Band 2,1.9,104,20.1,2.9,3.2,4.9,0
+EMP-0009686,Finance,Senior Manager,8.8,Band 6,3.1,59,17.1,2.8,2.8,5.2,0
+EMP-0004715,Engineering,Senior Manager,15.2,Band 3,3.7,81,15.1,3.4,4.3,0.1,0
+EMP-0013122,Finance,Director,2.0,Band 5,3.2,22,24.0,3.5,2.5,7.5,0
+EMP-0001716,Product,Individual Contributor,22.6,Band 4,2.8,88,1.7,2.6,3.4,9.3,1
+EMP-0008940,Finance,Manager,17.0,Band 4,3.0,37,6.0,4.1,2.5,5.1,1
+EMP-0001462,Marketing,VP,23.4,Band 2,3.7,103,21.0,4.5,2.7,1.2,0
+EMP-0001694,IT,Associate,3.8,Band 3,3.9,19,9.9,2.9,3.2,10.0,1
+EMP-0014421,Customer Success,Associate,17.5,Band 6,2.0,48,6.6,4.6,1.4,5.3,0
+EMP-0008434,Sales,Analyst,6.2,Band 6,3.0,49,21.1,1.5,2.9,3.4,1
+EMP-0003489,Engineering,Senior Manager,1.0,Band 5,3.9,70,11.1,3.5,2.6,1.9,0
+EMP-0006749,Engineering,Director,25.0,Band 1,1.6,83,11.1,2.2,1.0,8.3,1
+EMP-0001494,Product,Director,21.1,Band 5,2.5,10,11.1,3.5,4.4,8.0,0
+EMP-0014532,IT,Team Lead,21.8,Band 4,4.2,83,22.6,3.5,2.7,4.3,0
+EMP-0000879,Finance,Senior Manager,21.0,Band 1,1.9,21,11.9,2.8,1.9,3.7,0
+EMP-0008901,Legal,Director,15.8,Band 2,4.9,39,10.7,3.1,3.6,2.0,0
+EMP-0000506,IT,Team Lead,14.3,Band 6,5.0,76,21.2,2.1,2.9,4.9,1
+EMP-0012211,HR,Senior Manager,13.7,Band 5,2.3,43,10.3,3.5,2.9,4.0,1
+EMP-0001024,Sales,Manager,13.5,Band 3,2.2,0,9.8,2.2,1.0,7.4,1
+EMP-0001053,Legal,VP,14.0,Band 1,1.9,65,1.1,3.9,2.4,7.3,0
+EMP-0001493,Legal,Director,5.7,Band 4,2.8,53,8.9,3.8,2.6,3.6,0
+EMP-0005839,Marketing,Associate,5.1,Band 5,4.1,77,5.2,4.4,3.5,3.4,0
+EMP-0006654,Finance,Individual Contributor,11.1,Band 1,4.9,77,2.8,2.3,4.2,6.0,0
+EMP-0006751,Finance,Associate,9.7,Band 5,3.6,10,23.9,4.4,5.0,9.4,0
+EMP-0001078,IT,Analyst,20.4,Band 2,2.7,111,3.4,2.7,3.1,8.5,0
+EMP-0002260,IT,Senior Manager,10.1,Band 3,4.1,47,21.7,2.5,4.3,7.6,0
+EMP-0009784,Finance,Individual Contributor,4.8,Band 3,2.7,89,12.8,3.4,2.0,9.3,0
+EMP-0001468,Operations,Director,20.9,Band 3,3.1,98,7.7,3.2,3.0,9.0,0
+EMP-0000446,Operations,Individual Contributor,28.5,Band 5,4.4,95,6.3,4.3,1.5,1.0,0
+EMP-0007209,Finance,Associate,29.8,Band 5,4.5,76,14.6,2.0,3.7,4.1,0
+EMP-0011819,HR,Associate,16.0,Band 3,3.2,5,6.2,3.0,1.8,2.8,0
+EMP-0005244,Operations,Analyst,26.2,Band 5,2.7,64,13.8,4.4,1.9,1.0,0
+EMP-0004811,Finance,Senior Manager,12.9,Band 2,4.0,22,7.7,1.6,3.1,8.5,0
+EMP-0008306,Legal,Associate,14.0,Band 6,4.5,45,15.1,3.7,3.2,9.3,0
+EMP-0005276,Operations,Director,4.8,Band 2,2.1,42,19.0,1.8,3.9,8.9,0
+EMP-0002204,Operations,Team Lead,9.5,Band 5,1.8,92,24.8,1.0,4.5,9.3,0
+EMP-0003993,Customer Success,Team Lead,3.6,Band 3,3.4,119,19.7,4.3,4.8,4.0,0
+EMP-0006479,Marketing,Manager,12.7,Band 4,3.8,77,20.5,3.0,3.7,7.6,0
+EMP-0007394,Engineering,Individual Contributor,5.0,Band 3,2.2,5,16.0,3.4,2.5,5.0,0
+EMP-0010011,Engineering,Director,9.4,Band 2,4.2,100,21.2,2.9,3.5,2.7,0
+EMP-0011822,Finance,VP,2.6,Band 2,3.1,106,23.4,1.9,3.8,7.7,1
+EMP-0007710,Engineering,Analyst,25.0,Band 2,2.5,21,20.2,3.2,2.4,7.7,0
+EMP-0011549,Engineering,Senior Manager,16.4,Band 2,4.3,98,9.0,5.0,2.8,2.4,1
+EMP-0002424,Engineering,Analyst,23.1,Band 2,3.1,79,9.8,2.9,2.4,8.4,0
+EMP-0002115,IT,VP,28.2,Band 3,4.8,90,22.1,3.4,3.3,9.3,1
+EMP-0005331,Marketing,Manager,28.3,Band 2,1.9,51,18.7,3.4,2.6,7.0,0
+EMP-0009067,Legal,Manager,1.6,Band 1,2.7,3,5.4,2.7,4.7,9.4,0
+EMP-0011627,Sales,Individual Contributor,23.3,Band 4,3.2,39,10.7,3.2,3.3,2.0,0
+EMP-0006358,Legal,Manager,27.6,Band 3,2.6,4,16.3,2.1,2.4,5.1,1
+EMP-0009961,HR,Senior Manager,13.9,Band 3,3.5,95,24.9,2.4,3.3,1.0,1
+EMP-0010794,IT,Analyst,18.0,Band 3,2.3,30,4.6,3.6,1.9,7.7,0
+EMP-0011326,Legal,Analyst,19.6,Band 3,4.1,7,4.9,1.2,2.5,6.9,0
+EMP-0004987,Marketing,Analyst,7.0,Band 1,3.7,110,13.4,1.9,4.9,6.6,0
+EMP-0013923,Operations,Associate,1.2,Band 6,2.0,87,2.7,2.3,4.6,5.9,0
+EMP-0001473,Operations,Senior Manager,20.1,Band 4,2.8,84,10.6,1.0,4.6,8.6,1
+EMP-0006963,HR,Senior Manager,20.4,Band 2,2.3,28,4.6,4.5,1.7,5.2,1
+EMP-0000534,Product,Analyst,28.7,Band 4,2.2,0,12.5,3.4,1.6,3.8,0
+EMP-0006453,HR,Director,13.4,Band 6,4.4,4,18.8,4.4,1.6,8.8,1
+EMP-0011477,Product,Associate,24.7,Band 2,4.5,53,15.2,2.9,3.2,2.8,0
+EMP-0013196,Sales,Associate,29.9,Band 1,2.3,116,0.5,3.9,4.4,0.7,0
+EMP-0009327,Marketing,Manager,24.8,Band 1,4.3,101,2.4,4.6,2.0,2.3,1
+EMP-0007669,Customer Success,Individual Contributor,26.9,Band 1,2.4,8,13.2,4.1,2.4,7.2,1
+EMP-0012817,Finance,VP,22.6,Band 3,3.9,26,1.2,3.3,4.1,5.6,0
+EMP-0003156,Legal,VP,19.6,Band 1,2.1,19,3.1,3.5,3.9,7.4,0
+EMP-0014909,Customer Success,Team Lead,4.5,Band 4,1.6,91,11.2,4.4,2.3,2.6,0
+EMP-0004416,Legal,Associate,11.1,Band 3,2.8,60,14.5,3.3,2.9,3.2,0
+EMP-0007984,HR,VP,21.2,Band 2,2.0,61,18.1,1.6,1.3,9.2,1
+EMP-0010941,Customer Success,Team Lead,3.7,Band 3,4.0,117,1.4,3.4,3.4,2.1,1
+EMP-0008322,Finance,Senior Manager,5.3,Band 3,1.9,15,6.3,3.5,4.5,7.3,0
+EMP-0009057,Engineering,VP,8.2,Band 6,4.1,37,14.7,2.0,1.7,1.7,0
+EMP-0002076,Engineering,VP,17.9,Band 1,3.7,113,8.5,4.0,4.1,7.6,0
+EMP-0005132,HR,Manager,28.5,Band 3,4.3,105,22.3,4.2,3.1,2.1,0
+EMP-0008112,Finance,Manager,16.4,Band 6,2.3,28,5.8,4.3,3.7,2.0,0
+EMP-0011941,Marketing,Manager,20.6,Band 2,4.5,15,22.4,3.4,3.7,7.5,0
+EMP-0003231,Marketing,Team Lead,19.3,Band 1,1.8,67,13.7,2.7,2.7,8.1,1
+EMP-0001364,Operations,Associate,5.4,Band 4,4.7,45,16.7,3.2,4.6,2.4,0
+EMP-0012033,Engineering,Individual Contributor,17.1,Band 3,2.4,21,18.7,1.3,2.9,8.7,1
+EMP-0004353,Marketing,Team Lead,28.2,Band 1,3.7,7,6.6,4.4,3.4,1.4,0
+EMP-0006315,Sales,VP,29.9,Band 1,1.9,85,5.9,2.3,2.5,9.6,0
+EMP-0014154,Sales,Individual Contributor,19.7,Band 3,3.1,65,3.5,2.2,2.0,9.8,0
+EMP-0013602,Sales,Team Lead,7.6,Band 2,4.0,93,4.0,4.0,1.0,7.5,0
+EMP-0011070,Customer Success,Analyst,28.0,Band 2,1.7,67,7.2,2.9,4.6,3.8,0
+EMP-0008602,IT,Individual Contributor,23.1,Band 5,2.2,104,23.7,4.0,2.6,3.4,0
+EMP-0001740,IT,Manager,1.2,Band 1,4.5,40,21.8,2.6,2.4,7.1,0
+EMP-0007741,Operations,Associate,18.6,Band 4,2.5,85,4.7,4.4,4.0,1.2,1
+EMP-0001999,Product,Director,1.3,Band 3,1.7,85,17.5,3.6,2.7,2.1,0
+EMP-0012078,Marketing,Director,15.2,Band 4,2.2,90,7.8,3.8,2.7,2.1,0
+EMP-0012092,Sales,Manager,5.4,Band 2,2.8,86,0.4,1.5,3.9,8.8,0
+EMP-0012450,Engineering,Senior Manager,4.6,Band 5,2.1,75,24.0,1.5,2.0,4.7,0
+EMP-0011006,Sales,Associate,13.7,Band 3,2.8,110,17.8,3.0,3.8,5.1,1
+EMP-0001997,Legal,Manager,7.7,Band 1,1.9,106,11.3,3.5,2.0,9.6,0
+EMP-0004683,Product,VP,21.9,Band 5,3.4,6,4.8,3.0,3.5,4.4,1
+EMP-0007946,Product,Director,1.3,Band 6,4.1,10,24.4,2.5,2.5,9.2,0
+EMP-0011744,Legal,VP,27.8,Band 3,3.9,100,9.1,2.0,2.3,9.0,1
+EMP-0004303,Marketing,Individual Contributor,16.0,Band 6,4.7,33,2.9,2.2,2.8,3.6,0
+EMP-0003374,Marketing,Senior Manager,14.2,Band 1,4.5,79,21.4,3.9,2.7,1.2,1
+EMP-0004183,Customer Success,Individual Contributor,5.5,Band 2,4.2,57,17.4,3.6,4.1,6.1,0
+EMP-0001623,HR,Analyst,18.7,Band 4,3.8,64,18.8,1.9,3.4,1.7,1
+EMP-0004889,Customer Success,Manager,10.2,Band 6,3.1,73,10.3,2.5,3.5,7.1,0
+EMP-0014996,Marketing,VP,5.6,Band 6,3.5,120,15.3,3.4,2.2,5.7,0
+EMP-0009159,Product,Manager,19.1,Band 1,2.0,12,9.5,2.3,1.6,7.0,0
+EMP-0014201,Product,Analyst,26.8,Band 4,4.4,96,21.5,3.0,3.5,0.0,0
+EMP-0000363,Finance,Individual Contributor,12.0,Band 3,3.8,9,1.9,2.2,3.5,6.5,0
+EMP-0012372,IT,Analyst,17.0,Band 4,4.1,72,5.6,4.0,3.3,2.9,0
+EMP-0008227,Operations,Director,28.3,Band 6,2.9,87,14.5,3.5,3.2,9.5,0
+EMP-0009571,Legal,Analyst,11.8,Band 1,2.1,38,12.3,3.6,5.0,0.8,0
+EMP-0009901,Product,Individual Contributor,24.6,Band 2,2.6,22,22.8,2.8,4.0,9.4,0
+EMP-0001546,Engineering,VP,25.8,Band 3,3.0,71,19.1,2.9,2.8,4.1,1
+EMP-0006490,IT,Individual Contributor,15.8,Band 5,2.5,16,10.2,2.5,3.0,7.0,0
+EMP-0009656,Marketing,VP,13.2,Band 4,3.5,18,20.2,3.9,3.4,4.5,1
+EMP-0005895,Legal,Team Lead,23.1,Band 1,4.6,102,16.4,2.8,2.4,7.1,1
+EMP-0009539,Marketing,Analyst,2.6,Band 3,4.2,66,3.8,2.9,3.8,7.8,0
+EMP-0011773,IT,Individual Contributor,16.8,Band 2,4.0,81,11.2,3.9,2.3,3.8,1
+EMP-0004686,Sales,Analyst,1.6,Band 5,3.7,87,21.2,3.1,3.4,4.7,1
+EMP-0013742,Finance,Team Lead,20.7,Band 4,2.9,6,1.7,3.1,2.8,2.1,0
+EMP-0003051,Legal,Individual Contributor,6.7,Band 2,2.8,108,20.9,2.4,2.9,8.6,1
+EMP-0008214,Finance,Associate,3.6,Band 1,3.1,93,14.8,4.6,1.7,5.4,0
+EMP-0001140,Marketing,Director,19.0,Band 2,3.8,80,16.6,1.7,3.6,2.1,1
+EMP-0014759,Customer Success,Manager,24.3,Band 4,3.7,67,12.2,1.0,2.4,9.7,0
+EMP-0012133,Customer Success,Analyst,1.5,Band 4,4.4,81,7.5,3.0,2.4,7.7,1
+EMP-0014978,IT,Senior Manager,15.8,Band 5,3.9,103,14.4,1.7,3.4,5.4,0
+EMP-0009639,HR,Manager,27.3,Band 1,2.7,85,22.8,2.7,2.1,8.8,0
+EMP-0000531,Product,Individual Contributor,10.6,Band 1,3.3,52,2.1,1.6,2.0,6.1,0
+EMP-0006833,Marketing,Manager,10.2,Band 2,4.9,50,8.5,1.8,4.0,4.0,0
+EMP-0010611,HR,Senior Manager,11.6,Band 3,2.8,86,24.7,3.2,3.9,8.2,0
+EMP-0014974,Sales,Team Lead,28.0,Band 6,2.9,93,7.2,3.7,3.9,2.1,0
+EMP-0014120,Sales,Associate,7.4,Band 2,4.2,2,4.7,1.9,3.6,4.4,1
+EMP-0012485,Operations,Analyst,3.5,Band 5,3.4,98,3.0,3.8,2.6,4.7,0
+EMP-0010096,Marketing,Team Lead,11.3,Band 1,2.2,55,15.5,2.6,2.6,1.1,0
+EMP-0005327,HR,VP,29.1,Band 3,3.3,61,10.1,3.0,2.9,5.4,0
+EMP-0006598,Customer Success,Team Lead,14.8,Band 1,2.3,50,6.5,4.5,3.1,9.4,0
+EMP-0011770,IT,Manager,18.8,Band 2,2.6,118,5.3,3.2,4.4,1.9,0
+EMP-0008286,Finance,Associate,12.7,Band 2,3.3,103,23.2,2.5,3.5,2.2,0
+EMP-0004831,Product,Senior Manager,21.4,Band 3,4.5,10,0.8,4.2,1.0,2.7,0
+EMP-0004762,Finance,Manager,18.5,Band 1,3.8,98,23.6,1.0,3.0,1.5,1
+EMP-0013119,IT,Manager,23.4,Band 5,2.5,50,4.3,2.8,2.7,10.0,0
+EMP-0009091,Engineering,Individual Contributor,12.8,Band 1,3.5,69,24.7,3.8,5.0,8.2,1
+EMP-0006100,IT,Manager,20.7,Band 5,4.8,16,3.8,4.0,2.7,9.5,0
+EMP-0003840,Marketing,Manager,13.2,Band 2,2.3,59,14.7,3.3,4.1,7.4,0
+EMP-0007037,Marketing,Senior Manager,25.6,Band 4,3.2,32,0.7,2.8,3.8,2.1,0
+EMP-0010632,Customer Success,Team Lead,26.0,Band 4,3.0,44,6.5,4.7,1.9,3.9,0
+EMP-0002809,Finance,Manager,23.7,Band 5,4.8,69,9.5,4.1,5.0,4.6,0
+EMP-0004142,Legal,Team Lead,10.8,Band 6,4.7,9,5.4,3.1,3.4,7.3,0
+EMP-0003546,Product,Analyst,27.0,Band 5,2.0,71,4.3,3.4,2.8,4.3,0
+EMP-0007706,Customer Success,VP,29.9,Band 1,3.3,34,13.1,5.0,2.4,0.8,0
+EMP-0001171,Operations,Individual Contributor,22.7,Band 6,3.4,110,18.0,1.7,1.6,4.8,0
+EMP-0003078,HR,Manager,29.8,Band 4,3.6,10,16.1,4.0,4.9,8.8,0
+EMP-0011353,Engineering,Senior Manager,17.6,Band 2,3.2,7,2.3,2.7,3.2,9.4,1
+EMP-0009745,HR,Senior Manager,7.2,Band 2,4.9,51,5.1,3.3,4.0,8.6,0
+EMP-0011718,Operations,Senior Manager,16.2,Band 2,3.3,60,4.9,2.2,4.4,0.2,0
+EMP-0002333,Legal,Individual Contributor,11.7,Band 5,4.7,49,4.8,4.1,3.2,2.2,0
+EMP-0008708,Finance,Director,11.7,Band 1,1.6,60,8.0,3.6,2.7,5.4,0
+EMP-0003798,Finance,Senior Manager,24.4,Band 4,3.2,12,0.1,3.8,3.9,5.0,0
+EMP-0009358,Operations,Manager,13.7,Band 4,2.0,52,6.1,2.6,2.5,8.1,0
+EMP-0009111,IT,VP,28.1,Band 1,3.8,78,19.8,2.2,2.9,7.2,1
+EMP-0013131,Marketing,VP,9.3,Band 4,4.8,112,4.9,3.0,1.0,2.7,0
+EMP-0012129,Legal,Associate,9.4,Band 5,1.6,27,18.3,3.7,3.8,2.5,0
+EMP-0013818,Sales,Senior Manager,18.0,Band 2,4.7,7,3.4,4.2,3.2,2.4,0
+EMP-0003634,Marketing,Individual Contributor,6.2,Band 4,3.7,85,15.7,4.0,1.0,0.9,0
+EMP-0004233,Sales,Analyst,19.0,Band 3,3.1,67,3.6,3.7,2.4,0.7,0
+EMP-0011066,IT,VP,9.8,Band 5,1.6,74,13.4,3.2,2.2,0.7,0
+EMP-0007853,HR,Associate,26.3,Band 2,2.3,82,14.2,3.7,3.8,2.1,0
+EMP-0004768,Sales,Individual Contributor,15.8,Band 1,2.0,92,21.4,4.2,2.2,5.7,0
+EMP-0010703,Operations,Analyst,28.8,Band 2,2.6,77,22.9,3.4,3.6,0.1,1
+EMP-0011811,Legal,Senior Manager,4.0,Band 4,3.3,49,0.7,3.7,2.4,1.3,0
+EMP-0003932,Legal,Individual Contributor,22.6,Band 1,2.9,34,20.0,1.9,2.3,8.8,0
+EMP-0000127,IT,Individual Contributor,3.5,Band 4,1.8,110,23.2,4.3,4.3,0.0,1
+EMP-0002853,Product,Individual Contributor,22.1,Band 2,3.0,62,2.1,2.5,1.3,2.1,0
+EMP-0014182,HR,Team Lead,20.3,Band 4,3.6,22,19.3,3.4,2.0,3.4,0
+EMP-0009857,Engineering,Team Lead,22.7,Band 1,2.6,78,6.6,2.8,2.2,8.6,1
+EMP-0005316,Engineering,Team Lead,2.5,Band 2,1.9,75,5.2,2.8,2.9,2.6,0
+EMP-0001256,Operations,Senior Manager,25.7,Band 2,2.4,89,13.2,3.7,1.9,9.1,0
+EMP-0003957,Customer Success,Manager,29.1,Band 2,3.6,6,11.1,3.2,3.9,7.1,1
+EMP-0013354,Engineering,Individual Contributor,7.0,Band 2,2.5,102,16.9,3.5,4.1,9.5,0
+EMP-0006493,Marketing,Senior Manager,29.0,Band 6,3.1,30,14.8,2.4,4.1,6.4,0
+EMP-0003332,Engineering,Senior Manager,3.3,Band 3,2.6,6,18.5,2.9,4.0,6.4,0
+EMP-0003557,IT,VP,22.5,Band 4,3.9,6,5.1,2.4,3.6,8.1,0
+EMP-0007304,Legal,VP,14.0,Band 3,4.6,21,19.1,2.8,3.6,6.8,0
+EMP-0011229,HR,VP,12.4,Band 4,4.5,30,3.6,3.2,3.0,7.0,0
+EMP-0008916,IT,Team Lead,26.3,Band 2,3.2,60,14.4,4.5,4.4,7.1,0
+EMP-0004938,Engineering,Analyst,4.0,Band 3,1.6,62,22.7,1.4,4.9,7.9,0
+EMP-0008219,Operations,Director,9.7,Band 2,2.0,45,15.6,3.0,1.0,9.0,1
+EMP-0012524,Operations,Team Lead,16.1,Band 3,4.9,109,15.5,2.5,3.2,7.3,0
+EMP-0008995,Marketing,Team Lead,29.3,Band 5,4.6,109,22.2,2.3,2.5,1.3,0
+EMP-0002711,HR,Analyst,19.2,Band 2,1.5,64,14.4,4.0,2.6,4.7,0
+EMP-0005169,Legal,Analyst,9.6,Band 5,4.7,96,23.5,3.4,2.0,6.9,0
+EMP-0009299,IT,Individual Contributor,26.6,Band 4,4.2,50,3.7,5.0,2.6,2.3,1
+EMP-0005303,Customer Success,Individual Contributor,24.0,Band 3,4.9,80,18.1,2.2,2.9,2.7,1
+EMP-0009940,Engineering,Associate,12.7,Band 3,4.1,101,18.5,3.1,5.0,8.0,1
+EMP-0002225,Legal,Analyst,15.6,Band 4,3.9,20,16.2,2.4,2.3,3.0,0
+EMP-0007549,Finance,Manager,6.2,Band 5,2.0,70,12.4,4.1,2.8,4.0,0
+EMP-0003922,Marketing,Individual Contributor,3.6,Band 1,2.0,76,11.7,3.7,3.3,0.1,0
+EMP-0003144,Customer Success,Team Lead,15.9,Band 2,2.3,97,14.7,2.0,2.6,5.0,1
+EMP-0010097,Marketing,Analyst,21.0,Band 2,4.2,91,0.6,2.8,3.6,7.1,0
+EMP-0011316,Product,Team Lead,5.2,Band 4,4.4,115,6.0,4.8,3.2,2.3,1
+EMP-0011375,Sales,VP,6.5,Band 2,2.0,47,18.2,2.9,2.4,2.5,0
+EMP-0010780,HR,Senior Manager,10.8,Band 1,4.1,84,8.5,4.0,2.4,3.8,0
+EMP-0002282,Legal,Senior Manager,18.8,Band 4,5.0,64,2.7,3.0,3.5,3.6,0
+EMP-0010136,Product,VP,6.8,Band 6,4.8,54,5.6,1.0,2.0,7.5,1
+EMP-0012657,Customer Success,Manager,4.2,Band 4,2.2,78,14.2,2.4,3.0,7.8,1
+EMP-0003925,Operations,Manager,21.0,Band 3,1.8,99,11.7,2.7,4.1,0.9,0
+EMP-0005500,Product,Director,24.5,Band 1,2.4,40,11.7,3.8,2.6,4.5,0
+EMP-0013805,Engineering,Director,4.0,Band 4,4.7,6,12.0,3.3,1.7,0.9,0
+EMP-0003064,HR,Manager,4.8,Band 3,4.2,98,21.8,2.6,2.0,0.5,0
+EMP-0007526,HR,Team Lead,11.7,Band 1,4.5,46,3.4,2.2,1.8,6.4,0
+EMP-0002950,Marketing,Manager,9.8,Band 4,3.7,54,18.6,1.0,1.5,6.5,1
+EMP-0002223,Marketing,Analyst,19.7,Band 2,2.6,28,9.7,3.0,3.6,4.0,0
+EMP-0007830,Engineering,Director,10.5,Band 3,3.3,107,21.5,3.5,3.3,3.8,1
+EMP-0005547,Marketing,Associate,22.5,Band 3,3.0,83,19.0,3.0,2.7,2.7,0
+EMP-0000916,HR,Director,1.2,Band 1,3.9,100,10.1,4.6,3.5,8.9,0
+EMP-0009505,Marketing,Individual Contributor,26.0,Band 1,2.1,2,11.2,3.4,1.7,9.1,0
+EMP-0014456,IT,Director,8.4,Band 1,2.0,25,20.5,4.7,3.0,8.6,0
+EMP-0010644,Legal,Individual Contributor,7.3,Band 2,2.5,34,16.7,3.5,3.6,4.4,0
+EMP-0012061,Operations,Associate,2.9,Band 4,2.4,0,20.0,4.5,3.6,3.2,1
+EMP-0014189,Engineering,Analyst,28.8,Band 2,3.8,39,11.9,3.7,3.9,0.2,0
+EMP-0009727,Marketing,VP,5.9,Band 3,2.7,3,4.9,4.6,2.8,6.3,0
+EMP-0001375,Marketing,Team Lead,4.3,Band 2,3.1,57,19.8,3.5,3.3,7.9,0
+EMP-0001470,Engineering,Analyst,6.9,Band 5,3.0,53,17.8,2.1,2.8,7.4,0
+EMP-0012470,Operations,Individual Contributor,28.4,Band 5,3.7,10,18.2,3.3,3.3,1.9,0
+EMP-0009487,Finance,Individual Contributor,4.9,Band 3,2.7,26,23.9,3.2,4.2,6.5,0
+EMP-0011914,Customer Success,Director,16.8,Band 4,3.8,62,9.2
